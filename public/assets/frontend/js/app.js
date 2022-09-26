@@ -38,7 +38,7 @@
             axilInit.portfolioModalActivation();
             axilInit.caseModalActivation();
             axilInit.themeColorSet();
-           
+
         },
 
         w: function(e) {
@@ -132,13 +132,13 @@
         },
 
         mobileMenuActivation: function(e) {
-            
+
             $('.menu-item-has-children > a').on('click', function(e) {
-                
+
                 var targetParent = $(this).parents('.mainmenu-nav'),
                     target = $(this).siblings('.axil-submenu'),
                     targetSiblings = $(this).parent('.menu-item-has-children').siblings().find('.axil-submenu');
-                
+
                 if (targetParent.hasClass('offcanvas')) {
                     $(target).slideToggle(400);
                     $(targetSiblings).slideUp(400);
@@ -147,7 +147,7 @@
                 }
 
             });
-           
+
             function resizeClassAdd() {
                 if (window.matchMedia('(min-width: 992px)').matches) {
                     $('body').removeClass('mobilemenu-active');
@@ -166,7 +166,7 @@
             $(window).on('resize', function() {
                 resizeClassAdd();
             });
-            
+
             resizeClassAdd();
         },
 
@@ -186,7 +186,7 @@
                         filter: filterValue
                     });
                 });
-                
+
                 // init Isotope
                 var $grid = $('.isotope-list').isotope({
                     itemSelector: '.project',
@@ -199,7 +199,7 @@
                     }
                 });
             });
-        
+
             $('.isotope-button button').on('click', function (event) {
                 $(this).siblings('.is-checked').removeClass('is-checked');
                 $(this).addClass('is-checked');
@@ -221,7 +221,7 @@
         },
 
         counterUp: function () {
-			
+
             var elementSelector = $('.count');
             elementSelector.each(function(){
                 elementSelector.appear(function(e) {
@@ -268,7 +268,7 @@
                 });
             }
         },
-        
+
         tiltAnimation: function () {
             var _tiltAnimation = $('.paralax-image');
             if (_tiltAnimation.length) {
@@ -318,15 +318,15 @@
                 monthlySelectBtn = $('#monthly-plan-btn'),
                 monthlyPrice = $('.monthly-pricing'),
                 yearlyPrice = $('.yearly-pricing');
-               
-            
+
+
             $(monthlySelectBtn).on('click', function() {
                 $(this).addClass('active').parent('.nav-item').siblings().children().removeClass('active');
                 monthlyPrice.css('display', 'block');
                 yearlyPrice.css('display', 'none');
 
             });
-            
+
             $(yearlySelectBtn).on('click', function() {
                 $(this).addClass('active').parent('.nav-item').siblings().children().removeClass('active');
                 monthlyPrice.css('display', 'none');
@@ -353,7 +353,7 @@
                     $('.services-grid.active, .counterup-progress.active, .testimonial-grid.active, .pricing-table.active, .brand-grid.active, .blog-list.active, .about-quality.active, .team-grid.active, .splash-hover-control.active').removeClass('active');
                     $(self).addClass('active');
                 }, 0);
-                
+
             });
         },
 
@@ -391,16 +391,16 @@
             var modalClose = modalBox.find('.close');
 
             if ($('body').hasClass('onepage-template')) {
-                
+
                 blogList.each(function() {
-                    
+
                     var $this = $(this);
                     var buttons = $this.find('.post-thumbnail a, .title a, .more-btn');
                     var mainImg = $this.find('.modal-thumb');
                     var title = $this.find('.title');
                     var paragraph = $this.find('.post-content p');
                     var socialShare = $this.find('.blog-share');
-                    
+
                     buttons.on('click', function(e){
                         $('body').addClass('op-modal-open');
                         modalBox.addClass('open');
@@ -409,11 +409,11 @@
                         paragraph.clone().appendTo('.op-modal-content .post-content');
                         socialShare.clone().appendTo('.op-modal-content .post-content');
                         e.preventDefault();
-                        
+
                     })
-                    
+
                 });
-                
+
                 modalClose.on('click', function(e) {
                     $('body').removeClass('op-modal-open');
                     modalBox.removeClass('open');
@@ -426,22 +426,22 @@
                     var popupMenuWrap = $('#mobilemenu-popup .mobile-menu-close, .header-offcanvasmenu .btn-close');
                     if ($('#mobilemenu-popup, .header-offcanvasmenu').hasClass('offcanvas')) {
                         popupMenuWrap.trigger('click');
-                        
+
                     }
                 });
             }
         },
 
         portfolioModalActivation : function () {
-            
+
             var modalBox = $('.op-portfolio-modal');
             var projectList = $('.project-grid');
             var modalClose = modalBox.find('.close');
 
             if ($('body').hasClass('onepage-template')) {
-                
+
                 projectList.each(function() {
-                    
+
                     var $this = $(this);
                     var buttons = $this.find('.thumbnail a, .title a');
                     var mainImg = $this.find('.thumbnail .modal-thumb');
@@ -456,11 +456,11 @@
                         paragraph.clone().appendTo('.op-modal-content .portfolio-content');
                         socialShare.clone().appendTo('.op-modal-content .portfolio-content');
                         e.preventDefault();
-                        
+
                     })
-                    
+
                 });
-                
+
                 modalClose.on('click', function(e) {
                     $('body').removeClass('op-modal-open');
                     modalBox.removeClass('open');
@@ -472,15 +472,15 @@
         },
 
         caseModalActivation : function () {
-            
+
             var modalBox = $('.op-case-modal');
             var caseList = $('.case-study-featured');
             var modalClose = modalBox.find('.close');
 
             if ($('body').hasClass('onepage-template')) {
-                
+
                 caseList.each(function() {
-                    
+
                     var $this = $(this);
                     var buttons = $this.find('.axil-btn');
                     var title = $this.find('.title');
@@ -492,11 +492,11 @@
                         title.clone().appendTo('.op-modal-content .case-content');
                         paragraph.clone().appendTo('.op-modal-content .case-content');
                         e.preventDefault();
-                        
+
                     })
-                    
+
                 });
-                
+
                 modalClose.on('click', function(e) {
                     $('body').removeClass('op-modal-open');
                     modalBox.removeClass('open');
@@ -507,5 +507,44 @@
         },
     }
     axilInit.i();
+
+    $('.testimonial').owlCarousel({
+        loop: true,
+        autoplay: true,
+        smartSpeed: 1200,
+        autoplayTimeout: 2000,
+        responsive: {
+            0: {
+                margin: 30,
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 3
+            }
+        }
+    })
+
+    $('.client-logo').owlCarousel({
+        loop: true,
+        autoplay: true,
+        smartSpeed: 1200,
+        autoplayTimeout: 3000,
+        responsive: {
+            0: {
+                margin: 30,
+                items: 3
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 4
+            }
+        }
+    })
+
 
 })(window, document, jQuery);

@@ -12,16 +12,15 @@
                     <div class="col-lg-6 col-xl-6">
                         <div class="banner-content">
                             <h1 class="title" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
-                                Emerging Publishers
+                                Publishing Services
                             </h1>
                             <p class="text-white">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae tempore fugiat
-                                assumenda quas. Repellendus tempore, beatae alias, commodi dignissimos dicta ratione
-                                voluptate
-                                nisi cum cupiditate sequi quos vero eaque?
+                                Join forces with us for a professional open-access publication. Let us support your journal
+                                by handling online peer review, production, and international distribution through Emerging
+                                Publishers Insight.
                             </p>
                             <div data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
-                                <a class="axil-btn btn-fill-white btn-large">Get Started</a>
+                                <a href="{{ route('contact') }}" class="axil-btn btn-fill-white btn-large">Get Started</a>
                             </div>
                         </div>
                     </div>
@@ -64,7 +63,7 @@
                     <div class="col-lg-6 col-xl-6">
                         <div class="">
                             <h1 class="title" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
-                                Get Your Work Done
+                                We Provide Quality To You!
                             </h1>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae tempore fugiat
@@ -82,7 +81,7 @@
                     <div class="col-lg-6 col-xl-6" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
                         <div class="banner-form">
                             <div class="contact-form-box shadow-box">
-                                <h3 class="title">Get a free Keystroke quote now</h3>
+                                <h3 class="title">Get a free consultation now</h3>
                                 <form method="POST" class="axil-contact-form">
                                     <div class="form-group">
                                         <label>Name</label>
@@ -114,82 +113,7 @@
 
         @include('frontend.partials.brands-area')
 
-        <!--=====================================-->
-        <!--=        Testimonial Area Start     =-->
-        <!--=====================================-->
-        <section class="section section-padding">
-            <div class="container">
-                <div class="section-heading heading-left">
-                    <span class="subtitle">Testimonial</span>
-                    <h2 class="title">From getting started</h2>
-                    <p>Nulla facilisi. Nullam in magna id dolor blandit rutrum eget vulputate augue sed eu leo eget
-                        risus imperdiet.</p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
-                        <div class="testimonial-grid active">
-                            <span class="social-media"><img src="{{ asset('assets/frontend/media/icon/yelp-2.png') }}"
-                                    alt="Yelp"></span>
-                            <p>“ Donec metus lorem, vulputate
-                                at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus
-                                velit. ”</p>
-                            <div class="author-info">
-                                <div class="thumb">
-                                    <img src="{{ asset('assets/frontend/media/testimonial/testimonial-1.png') }}"
-                                        alt="Google Review">
-                                </div>
-                                <div class="content">
-                                    <span class="name">Darrell Steward</span>
-                                    <span class="designation">Executive Chairman</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
-                        <div class="testimonial-grid">
-                            <span class="social-media"><img src="{{ asset('assets/frontend/media/icon/google-2.png') }}"
-                                    alt="google"></span>
-                            <p>“ Donec metus lorem, vulputate
-                                at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus
-                                velit. ”</p>
-                            <div class="author-info">
-                                <div class="thumb">
-                                    <img src="{{ asset('assets/frontend/media/testimonial/testimonial-2.png') }}"
-                                        alt="Google Review">
-                                </div>
-                                <div class="content">
-                                    <span class="name">Savannah Nguyen</span>
-                                    <span class="designation">Executive Chairman</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
-                        <div class="testimonial-grid">
-                            <span class="social-media"><img src="{{ asset('assets/frontend/media/icon/fb-2.png') }}"
-                                    alt="Facebook"></span>
-                            <p>“ Donec metus lorem, vulputate
-                                at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus
-                                velit. ”</p>
-                            <div class="author-info">
-                                <div class="thumb">
-                                    <img src="{{ asset('assets/frontend/media/testimonial/testimonial-3.png') }}"
-                                        alt="Google Review">
-                                </div>
-                                <div class="content">
-                                    <span class="name">Floyd Miles</span>
-                                    <span class="designation">Executive Chairman</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <ul class="shape-group-4 list-unstyled">
-                <li class="shape-1"><img src="{{ asset('assets/frontend/media/others/bubble-1.png') }}" alt="Bubble">
-                </li>
-            </ul>
-        </section>
+        @include('frontend.partials.testimonial')
 
         <!--=====================================-->
         <!--=      About  Quality Area Start    =-->
@@ -198,7 +122,7 @@
             <div class="container">
                 <div class="section-heading heading-light-left mb--100">
                     <span class="subtitle">Our Valus</span>
-                    <h2 class="title">Why should you work hire us?</h2>
+                    <h2 class="title">Why hire Us?</h2>
                     <p class="opacity-50">Nulla facilisi. Nullam in magna id dolor
                         blandit rutrum eget vulputate augue sed eu leo eget risus imperdiet.</p>
                 </div>
@@ -206,44 +130,52 @@
                     <div class="col-lg-4">
                         <div class="about-quality active">
                             <h3 class="sl-number">1</h3>
-                            <h5 class="title">Exceed clients’ and colleagues’ expectations</h5>
-                            <p>Ut id orci ultricies, gravida arcu ac, elementum
-                                eros. Curabitur tortor ipsum, imperdiet eget odio
-                                ac, faucibus ultricies nisl. Maecenas
-                                scelerisque dignissim elit.</p>
+                            <h5 class="title">Quality</h5>
+                            <p>
+                                Independent peer reviewers evaluate books for quality, validity, and relevance. Numerous
+                                journals in our portfolio are indexed in our organization.
+                            </p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="about-quality">
                             <h3 class="sl-number">2</h3>
-                            <h5 class="title">Take ownership and question the status quo in a constructive manner</h5>
-                            <p>Nulla facilisi. Vestibulum vel urna eget magna condimentum faucibus. Sed arcu mi, semper sed
-                                suscipit vel, rhoncus vel justo.</p>
+                            <h5 class="title">Ethics</h5>
+                            <p>
+                                Emerging Ghostwriter upholds the highest standards of ethical publication. We adhere to
+                                ICMJE, COPE, and GPP-3 standards.
+                            </p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="about-quality">
                             <h3 class="sl-number">3</h3>
-                            <h5 class="title">Be brave, curious and experiment – learn from all successes and failures
+                            <h5 class="title">
+                                Reach
                             </h5>
-                            <p>Quisque aliquet quis est in faucibus. Aenean eget lorem ac risus placerat convallis eget a
-                                eros.
-                                Suspendisse dignissim ultrices tellus, id placerat mauris lacinia a.</p>
+                            <p>
+                                One of the top publishers is Emerging Ghostwriter. Emerging Ghostwriter is one of the most
+                                popular publishing platforms in the world.
+                            </p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="about-quality">
                             <h3 class="sl-number">4</h3>
-                            <h5 class="title">Act in a way that makes all of us proud</h5>
-                            <p>Proin dignissim facilisis tortor a mattis. Morbi non maximus nunc, ut mattis tellus. In hac
-                                habitasse platea dictumst. Mauris viverra enim tellus, vel ultrices dolor aliquam non.</p>
+                            <h5 class="title">Expertise</h5>
+                            <p>
+                                Our publications offer contributors direct, timely communication with internal editorial
+                                experts.
+                            </p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="about-quality">
                             <h3 class="sl-number">5</h3>
-                            <h5 class="title">Build an inclusive, transparent and socially responsible culture</h5>
-                            <p>Maecenas eros sapien, egestas at elit nec, eleifend sagittis orci.</p>
+                            <h5 class="title">Industry peers</h5>
+                            <p>
+                                Leading corporations publish their research through Emerging Ghostwriters.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -252,8 +184,7 @@
                 <li class="shape shape-1"><img src="{{ asset('assets/frontend/media/others/circle-1.png') }}"
                         alt="Circle">
                 </li>
-                <li class="shape shape-2"><img src="{{ asset('assets/frontend/media/others/line-3.png') }}"
-                        alt="Circle">
+                <li class="shape shape-2"><img src="{{ asset('assets/frontend/media/others/line-3.png') }}" alt="Circle">
                 </li>
                 <li class="shape shape-3"><img src="{{ asset('assets/frontend/media/others/bubble-5.png') }}"
                         alt="Circle"></li>
@@ -267,10 +198,12 @@
         <section class="section section-padding bg-color-dark">
             <div class="container">
                 <div class="section-heading heading-light">
-                    <span class="subtitle">Featured Case Study</span>
-                    <h2 class="title">Design startup movement</h2>
-                    <p>In vel varius turpis, non dictum sem. Aenean in efficitur ipsum, in egestas ipsum. Mauris in mi
-                        ac tellus.</p>
+                    {{-- <span class="subtitle"></span> --}}
+                    <h2 class="title">The Best And Affordable</h2>
+                    <p>
+                        We provide a publishing service to assist your organization, helping you showcase the caliber and
+                        scope of research conducted in your area.
+                    </p>
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
@@ -339,8 +272,8 @@
                 <div class="call-to-action">
                     <div class="section-heading heading-light">
                         <span class="subtitle">Let's Work Together</span>
-                        <h2 class="title">Need a successful project?</h2>
-                        <a href="contact.html" class="axil-btn btn-large btn-fill-white">Estimate Project</a>
+                        <h2 class="title">Would You Like To Publish Your Work?</h2>
+                        <a class="axil-btn btn-large btn-fill-white">Estimate Project</a>
                     </div>
                     <div class="thumbnail">
                         <div class="larg-thumb" data-sal="zoom-in" data-sal-duration="600" data-sal-delay="100">

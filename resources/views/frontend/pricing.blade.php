@@ -68,12 +68,14 @@
                                 <span class="subtitle">A beautiful, simple website</span>
                                 <div class="price-wrap">
                                     <div class="yearly-pricing">
-                                        <span class="amount">$119.99</span>
-                                        <span class="duration">/yearly</span>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio sapiente
+                                            vel dicta odit cum consequatur ex quos, maiores provident consequuntur porro
+                                            omnis. Sed consequuntur provident aliquam fuga minus eveniet?</p>
                                     </div>
                                     <div class="monthly-pricing">
-                                        <span class="amount">$19.00</span>
-                                        <span class="duration">/monthly</span>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio sapiente
+                                            vel dicta odit cum consequatur ex quos, maiores provident consequuntur porro
+                                            omnis. Sed consequuntur provident aliquam fuga minus eveniet?</p>
                                     </div>
                                 </div>
                                 <div class="pricing-btn">
@@ -98,12 +100,14 @@
                                 <span class="subtitle">Small Team</span>
                                 <div class="price-wrap">
                                     <div class="yearly-pricing">
-                                        <span class="amount">$219.99</span>
-                                        <span class="duration">/yearly</span>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio sapiente
+                                            vel dicta odit cum consequatur ex quos, maiores provident consequuntur porro
+                                            omnis. Sed consequuntur provident aliquam fuga minus eveniet?</p>
                                     </div>
                                     <div class="monthly-pricing">
-                                        <span class="amount">$29.00</span>
-                                        <span class="duration">/monthly</span>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio sapiente
+                                            vel dicta odit cum consequatur ex quos, maiores provident consequuntur porro
+                                            omnis. Sed consequuntur provident aliquam fuga minus eveniet?</p>
                                     </div>
                                 </div>
                                 <div class="pricing-btn">
@@ -128,12 +132,14 @@
                                 <span class="subtitle">Large Team</span>
                                 <div class="price-wrap">
                                     <div class="yearly-pricing">
-                                        <span class="amount">$559.99</span>
-                                        <span class="duration">/yearly</span>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio sapiente
+                                            vel dicta odit cum consequatur ex quos, maiores provident consequuntur porro
+                                            omnis. Sed consequuntur provident aliquam fuga minus eveniet?</p>
                                     </div>
                                     <div class="monthly-pricing">
-                                        <span class="amount">$59.00</span>
-                                        <span class="duration">/monthly</span>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio sapiente
+                                            vel dicta odit cum consequatur ex quos, maiores provident consequuntur porro
+                                            omnis. Sed consequuntur provident aliquam fuga minus eveniet?</p>
                                     </div>
                                 </div>
                                 <div class="pricing-btn">
@@ -170,33 +176,43 @@
                     <div class="section-heading heading-light">
                         <span class="subtitle">Let's Work Together</span>
                         <h2 class="title">Need a successful project?</h2>
-                        <a href="contact.html" class="axil-btn btn-large btn-fill-white">Estimate Project</a>
+                        <a href="{{ route('contact') }}" class="axil-btn btn-large btn-fill-white">Estimate Project</a>
                     </div>
                     <div class="thumbnail">
                         <div class="larg-thumb" data-sal="zoom-in" data-sal-duration="600" data-sal-delay="100">
-                            <img class="paralax-image" src="{{ asset('assets/frontend/media/others/chat-group.png') }}" alt="Chat">
+                            <img class="paralax-image" src="{{ asset('assets/frontend/media/others/chat-group.png') }}"
+                                alt="Chat">
                         </div>
                         <ul class="list-unstyled small-thumb">
                             <li class="shape shape-1" data-sal="slide-right" data-sal-duration="800"
                                 data-sal-delay="400">
-                                <img class="paralax-image" src="{{ asset('assets/frontend/media/others/laptop-poses.png') }}" alt="Laptop">
+                                <img class="paralax-image"
+                                    src="{{ asset('assets/frontend/media/others/laptop-poses.png') }}" alt="Laptop">
                             </li>
                             <li class="shape shape-2" data-sal="slide-left" data-sal-duration="800"
                                 data-sal-delay="300">
-                                <img class="paralax-image" src="{{ asset('assets/frontend/media/others/bill-pay.png') }}" alt="Bill">
+                                <img class="paralax-image" src="{{ asset('assets/frontend/media/others/bill-pay.png') }}"
+                                    alt="Bill">
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
             <ul class="list-unstyled shape-group-9">
-                <li class="shape shape-1"><img src="{{ asset('assets/frontend/media/others/bubble-12.png') }}" alt="Comments"></li>
-                <li class="shape shape-2"><img src="{{ asset('assets/frontend/media/others/bubble-16.png') }}" alt="Comments"></li>
-                <li class="shape shape-3"><img src="{{ asset('assets/frontend/media/others/bubble-13.png') }}" alt="Comments"></li>
-                <li class="shape shape-4"><img src="{{ asset('assets/frontend/media/others/bubble-14.png') }}" alt="Comments"></li>
-                <li class="shape shape-5"><img src="{{ asset('assets/frontend/media/others/bubble-16.png') }}" alt="Comments"></li>
-                <li class="shape shape-6"><img src="{{ asset('assets/frontend/media/others/bubble-15.png') }}" alt="Comments"></li>
-                <li class="shape shape-7"><img src="{{ asset('assets/frontend/media/others/bubble-16.png') }}" alt="Comments"></li>
+                <li class="shape shape-1"><img src="{{ asset('assets/frontend/media/others/bubble-12.png') }}"
+                        alt="Comments"></li>
+                <li class="shape shape-2"><img src="{{ asset('assets/frontend/media/others/bubble-16.png') }}"
+                        alt="Comments"></li>
+                <li class="shape shape-3"><img src="{{ asset('assets/frontend/media/others/bubble-13.png') }}"
+                        alt="Comments"></li>
+                <li class="shape shape-4"><img src="{{ asset('assets/frontend/media/others/bubble-14.png') }}"
+                        alt="Comments"></li>
+                <li class="shape shape-5"><img src="{{ asset('assets/frontend/media/others/bubble-16.png') }}"
+                        alt="Comments"></li>
+                <li class="shape shape-6"><img src="{{ asset('assets/frontend/media/others/bubble-15.png') }}"
+                        alt="Comments"></li>
+                <li class="shape shape-7"><img src="{{ asset('assets/frontend/media/others/bubble-16.png') }}"
+                        alt="Comments"></li>
             </ul>
         </section>
 

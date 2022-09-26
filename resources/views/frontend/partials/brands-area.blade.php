@@ -4,54 +4,88 @@
 <section class="section section-padding bg-color-dark">
     <div class="container">
         <div class="section-heading heading-light-left">
-            <span class="subtitle">Top Clients</span>
-            <h2 class="title">We’ve built solutions for...</h2>
+            <span class="subtitle">Our Publishers</span>
+            <h2 class="title">Take A Look At The Companies We've Published For!</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, expedita eius iusto ex, nesciunt nihil
-                id similique rem vitae, cumque animi voluptate voluptatem libero.
+                Our platinum journals are published in collaboration with universities and organizations that address
+                various topics.
             </p>
         </div>
         <div class="row">
-            <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500">
-                <div class="brand-grid active">
-                    <img src="{{ asset('assets/frontend/media/brand/brand-1.png') }}" alt="Brand">
+            <div class="owl-carousel owl-theme client-logo " id="client-logo">
+                <div class="item">
+                    <div class="" data-sal="slide-up" data-sal-duration="500">
+                        <div class="brand-grid active">
+                            <img src="{{ asset('assets/frontend/media/brand/kobo.png') }}"
+                                alt="Brand" style="width: 70%">
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="100">
-                <div class="brand-grid">
-                    <img src="{{ asset('assets/frontend/media/brand/brand-2.png') }}" alt="Brand">
+                <div class="item">
+                    <div class="" data-sal="slide-up" data-sal-duration="500" data-sal-delay="100">
+                        <div class="brand-grid">
+                            <img src="{{ asset('assets/frontend/media/brand/scribd.png') }}"
+                                alt="Brand" style="width: 70%">
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="200">
-                <div class="brand-grid">
-                    <img src="{{ asset('assets/frontend/media/brand/brand-3.png') }}" alt="Brand">
+
+                <div class="item">
+                    <div class="" data-sal="slide-up" data-sal-duration="500" data-sal-delay="200">
+                        <div class="brand-grid">
+                            <img src="{{ asset('assets/frontend/media/brand/lulu.png') }}"
+                                alt="Brand" style="width: 70%">
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300">
-                <div class="brand-grid">
-                    <img src="{{ asset('assets/frontend/media/brand/brand-4.png') }}" alt="Brand">
+
+                <div class="item">
+                    <div class="" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300">
+                        <div class="brand-grid">
+                            <img src="{{ asset('assets/frontend/media/brand/smashwords.png') }}"
+                                alt="Brand" style="width: 70%">
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="400">
-                <div class="brand-grid">
-                    <img src="{{ asset('assets/frontend/media/brand/brand-5.png') }}" alt="Brand">
+
+                <div class="item">
+                    <div class="" data-sal="slide-up" data-sal-duration="500" data-sal-delay="400">
+                        <div class="brand-grid">
+                            <img src="{{ asset('assets/frontend/media/brand/draft2digital.png') }}"
+                                alt="Brand" style="width: 70%">
+                        </div>
+                    </div>
+
                 </div>
-            </div>
-            <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500">
-                <div class="brand-grid">
-                    <img src="{{ asset('assets/frontend/media/brand/brand-6.png') }}" alt="Brand">
+                <div class="item">
+                    <div class="" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500">
+                        <div class="brand-grid">
+                            <img src="{{ asset('assets/frontend/media/brand/amazon.png') }}"
+                                alt="Brand" style="width: 70%">
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="600">
-                <div class="brand-grid">
-                    <img src="{{ asset('assets/frontend/media/brand/brand-7.png') }}" alt="Brand">
+
+                <div class="item">
+                    <div class="" data-sal="slide-up" data-sal-duration="500" data-sal-delay="600">
+                        <div class="brand-grid">
+                            <img src="{{ asset('assets/frontend/media/brand/ingramspark.png') }}"
+                                alt="Brand" style="width: 70%">
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="700">
-                <div class="brand-grid">
-                    <img src="{{ asset('assets/frontend/media/brand/brand-8.png') }}" alt="Brand">
+
+                <div class="item">
+                    <div class="" data-sal="slide-up" data-sal-duration="500" data-sal-delay="700">
+                        <div class="brand-grid">
+                            <img src="{{ asset('assets/frontend/media/brand/barnesnoble.png') }}"
+                                alt="Brand" style="width: 70%">
+                        </div>
+                    </div>
                 </div>
+
             </div>
+
         </div>
     </div>
     <ul class="list-unstyled shape-group-10">

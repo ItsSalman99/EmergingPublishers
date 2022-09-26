@@ -219,7 +219,7 @@
                     <div class="section-heading heading-light">
                         <span class="subtitle">Let's Work Together</span>
                         <h2 class="title">Need a successful project?</h2>
-                        <a href="contact.html" class="axil-btn btn-large btn-fill-white">Estimate Project</a>
+                        <a href="{{ route('contact') }}" class="axil-btn btn-large btn-fill-white">Estimate Project</a>
                     </div>
                     <div class="thumbnail">
                         <div class="larg-thumb" data-sal="zoom-in" data-sal-duration="600" data-sal-delay="100">

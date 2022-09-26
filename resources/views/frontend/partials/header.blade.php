@@ -47,9 +47,9 @@
                                     <li class="menu-item-has-children">
                                         <a href="javascript:void(0);">Services</a>
                                         <ul class="axil-submenu">
-                                            <li><a href="blog.html">Book Writing</a></li>
-                                            <li><a href="single-blog.html">Book Publishing</a></li>
-                                            <li><a href="single-blog-gallery.html">Book Marketing</a></li>
+                                            <li><a href="{{ route('book-publishing') }}">Book Publishing</a></li>
+                                            <li><a href="{{ route('book-editing') }}">Book Editing</a></li>
+                                            <li><a href="#">Book Marketing</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -59,7 +59,7 @@
                         <div class="header-action">
                             <ul class="list-unstyled">
                                 <li class="header-btn">
-                                    <a href="contact.html" class="axil-btn btn-fill-white">Free Consutation</a>
+                                    <a href="{{ route('contact') }}" class="axil-btn btn-fill-white">Free Consutation</a>
                                 </li>
                                 <li class="mobile-menu-btn sidemenu-btn d-lg-none d-block">
                                     <button class="btn-wrap btn-dark" data-bs-toggle="offcanvas"

@@ -10,18 +10,10 @@
                                 class="fab fa-facebook-f"></i></a></li>
                     <li><a href="https://twitter.com/" data-sal="slide-up" data-sal-duration="500"
                             data-sal-delay="200"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="https://www.pinterest.com/" data-sal="slide-up" data-sal-duration="500"
-                            data-sal-delay="300"><i class="fab fa-pinterest-p"></i></a></li>
                     <li><a href="https://www.linkedin.com/" data-sal="slide-up" data-sal-duration="500"
                             data-sal-delay="400"><i class="fab fa-linkedin-in"></i></a></li>
                     <li><a href="https://www.instagram.com/" data-sal="slide-up" data-sal-duration="500"
                             data-sal-delay="500"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="https://vimeo.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="600"><i
-                                class="fab fa-vimeo-v"></i></a></li>
-                    <li><a href="https://dribbble.com/" data-sal="slide-up" data-sal-duration="500"
-                            data-sal-delay="700"><i class="fab fa-dribbble"></i></a></li>
-                    <li><a href="https://www.behance.net/" data-sal="slide-up" data-sal-duration="500"
-                            data-sal-delay="800"><i class="fab fa-behance"></i></a></li>
                 </ul>
             </div>
         </div>

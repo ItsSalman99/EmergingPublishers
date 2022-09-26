@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/vendor/magnific-popup.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/vendor/green-audio-player.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/vendor/odometer-theme-default.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/frontend/css/vendor/owl.carousel.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/frontend/css/vendor/owl.carousel.min.css') }}">
 
     <!-- Site Stylesheet -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/app.css') }}">
@@ -55,6 +57,8 @@
     <script src="{{ asset('assets/frontend/js/vendor/tilt.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/vendor/green-audio-player.min.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/vendor/jquery.nav.js') }}"></script>
+    <script src="{{ asset('assets/frontend/js/vendor/owl.carousel.js') }}"></script>
+    <script src="{{ asset('assets/frontend/js/vendor/owl.carousel.min.js') }}"></script>
 
     <!-- Site Scripts -->
     <script src="{{ asset('assets/frontend/js/app.js') }}"></script>
