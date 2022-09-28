@@ -49,8 +49,14 @@
                                         <ul class="axil-submenu">
                                             <li><a href="{{ route('book-publishing') }}">Book Publishing</a></li>
                                             <li><a href="{{ route('book-editing') }}">Book Editing</a></li>
-                                            <li><a href="#">Book Marketing</a></li>
+                                            <li><a href="{{ route('book-marketing') }}">Book Marketing</a></li>
+                                            <li><a href="{{ route('book-ghostwriting') }}">Book GhostWriting</a></li>
                                         </ul>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('printing-press') }}">
+                                            Printing Press
+                                        </a>
                                     </li>
                                 </ul>
                             </nav>
@@ -68,20 +74,6 @@
                                         <span></span>
                                         <span></span>
                                     </button>
-                                </li>
-                                <li class="my_switcher d-block d-lg-none">
-                                    <ul>
-                                        <li title="Light Mode">
-                                            <a href="javascript:void(0)" class="setColor light" data-theme="light">
-                                                <i class="fal fa-lightbulb-on"></i>
-                                            </a>
-                                        </li>
-                                        <li title="Dark Mode">
-                                            <a href="javascript:void(0)" class="setColor dark" data-theme="dark">
-                                                <i class="fas fa-moon"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
                                 </li>
                             </ul>
                         </div>

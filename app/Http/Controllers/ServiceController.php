@@ -16,4 +16,14 @@ class ServiceController extends Controller
         return view('frontend.services.book-editing');
     }
 
+    public function bookMarketing()
+    {
+        return view('frontend.services.book-marketing');
+    }
+
+    public function bookGhostWriting()
+    {
+        return view('frontend.services.book-ghostwriting');
+    }
+
 }

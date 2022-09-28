@@ -10,4 +10,10 @@ class ContactController extends Controller
     {
         return view('frontend.contact');
     }
+
+    public function store(Request $request)
+    {
+        dd($request->all());
+    }
+
 }

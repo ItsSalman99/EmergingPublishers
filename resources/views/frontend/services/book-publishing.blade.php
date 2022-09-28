@@ -5,41 +5,40 @@
 
         @include('frontend.partials.header')
 
-        <section class="banner banner-style-5">
+        <section class="banner banner-style-5" style="background-image: url('assets/frontend/media/bg4.jpg')">
             <div class="container">
                 <div class="">
                     <div class="">
                         <div class="banner-content text-center">
-                            <h1 class="title" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
+                            <h2 class="text-white" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
+                                Publish Your Book Over Renowned Platforms through our
                                 Book Publishing Services
-                            </h1>
+                            </h2>
                             <p class="text-white">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi natus assumenda expedita
-                                vitae, vero eaque odio ipsam at cum iste cupiditate neque molestias a, officia doloremque
-                                deleniti delectus earum totam!
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, esse? Nesciunt quod delectus
-                                modi voluptate, unde at explicabo culpa vel et nostrum vero labore quasi natus ea molestiae
-                                quibusdam nulla.
+                                Many thousands of writers have poured their hearts and souls into a manuscript, but book
+                                publishing corporations continue to turn them down for strange reasons. At Emerging
+                                Publishers, we offer remedies to all aspiring writers to deal with the various "odd causes"
+                                holding them back from realizing their aspirations.
                             </p>
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
 
-        <section class="section section-padding-2" style="margin-bottom: 200px;">
+        <section class="section section-padding-2" style="z-index: 2;">
             <div class="container">
-                <div class="row">
+                <div class="row service-gap">
                     <div class="col-xl-3 col-md-6 sal-animate" data-sal="slide-up" data-sal-duration="800"
                         data-sal-delay="100">
                         <div class="service-container" style="border: 2px solid #eee;">
-                            <h5 style="width: 100%!important;">Printed Copies Of Book</h5>
+                            <h5 style="width: 100%!important;">Editorial Support</h5>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iste labore voluptate
-                                explicabo unde minus fugit. Eaque accusamus quasi placeat eveniet repudiandae similique
-                                molestias hic? Harum sunt commodi tempora obcaecati.
+                                Our clients receive editorial support from us, ensuring that the final output is free of any
+                                problems or errors. By doing this, you may be confident that your book is top-notch.
                             </p>
-                            <button class="btn btn-primary">
+                            <button type="submit" class="btn btn-service" name="submit-btn">Get
                                 Get Started
                             </button>
                         </div>
@@ -47,13 +46,12 @@
                     <div class="col-xl-3 col-md-6 sal-animate" data-sal="slide-up" data-sal-duration="800"
                         data-sal-delay="200">
                         <div class="service-container" style="border: 2px solid #eee;">
-                            <h5 style="width: 100%!important;">Conversion & Distribution</h5>
+                            <h5 style="width: 100%!important;">Marketing Support</h5>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iste labore voluptate
-                                explicabo unde minus fugit. Eaque accusamus quasi placeat eveniet repudiandae similique
-                                molestias hic? Harum sunt commodi tempora obcaecati.
+                                Our marketing specialists will make sure to create a marketing plan specifically for your
+                                company. This ensures that your exposure is maximized and that your revenues increase.
                             </p>
-                            <button class="btn btn-primary">
+                            <button type="submit" class="btn btn-service" name="submit-btn">Get
                                 Get Started
                             </button>
                         </div>
@@ -61,13 +59,12 @@
                     <div class="col-xl-3 col-md-6 sal-animate" data-sal="slide-up" data-sal-duration="800"
                         data-sal-delay="300">
                         <div class="service-container" style="border: 2px solid #eee;">
-                            <h5 style="width: 100%!important;">Print On Demand</h5>
+                            <h5 style="width: 100%!important;">More Acclaim</h5>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iste labore voluptate
-                                explicabo unde minus fugit. Eaque accusamus quasi placeat eveniet repudiandae similique
-                                molestias hic? Harum sunt commodi tempora obcaecati.
+                                Your book gains some legitimacy when you have a well-known publishing house on your side.
+                                Additionally, it aids in book promotion in a manner that self-publishing cannot.
                             </p>
-                            <button class="btn btn-primary">
+                            <button type="submit" class="btn btn-service" name="submit-btn">Get
                                 Get Started
                             </button>
                         </div>
@@ -75,13 +72,13 @@
                     <div class="col-xl-3 col-md-6 sal-animate" data-sal="slide-up" data-sal-duration="800"
                         data-sal-delay="100">
                         <div class="service-container" style="border: 2px solid #eee;">
-                            <h5 style="width: 100%!important;">Certified</h5>
+                            <h5 style="width: 100%!important;">Fewer Sales</h5>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iste labore voluptate
-                                explicabo unde minus fugit. Eaque accusamus quasi placeat eveniet repudiandae similique
-                                molestias hic? Harum sunt commodi tempora obcaecati.
+                                If you choose to self-publish, you will lose out on a significant portion of the market
+                                because you won't be able to manage the book's promotion while also managing everything
+                                else.
                             </p>
-                            <button class="btn btn-primary">
+                            <button type="submit" class="btn btn-service" name="submit-btn">Get
                                 Get Started
                             </button>
                         </div>
@@ -100,13 +97,13 @@
                         <div class="section-heading heading-left" data-sal="slide-right" data-sal-duration="1000"
                             data-sal-delay="300">
                             <h1 class="title h2">
-                                WE ARE TRUSTED BOOK PUBLISHERS
+                                Publish Your Book the Easiest Way
                             </h1>
                             <p>
-                                Our vision is to create a sanctuary for all indie authors—a place where they find everything
-                                they
-                                need to succeed in their journey as a writer. At mermaid publishers, we partner with writers
-                                worldwide and help them get to the limelight they deserve.
+                                Anyone who hasn't previously explored those pathways will find book publishing to be a
+                                difficult path to travel. After putting your heart and soul into crafting a book, it
+                                shouldn't be acceptable to watch it get neglected or poorly treated because the author was
+                                ignorant of the complexities of the publishing industry.
                             </p>
                         </div>
                     </div>
@@ -138,13 +135,12 @@
                         <div class="section-heading heading-left" data-sal="slide-right" data-sal-duration="1000"
                             data-sal-delay="300">
                             <h1 class="title h2">
-                                WHY CHOOSE US?
+                                Publishing Services for Beginning Authors
                             </h1>
                             <p>
-                                Our vision is to create a sanctuary for all indie authors—a place where they find everything
-                                they
-                                need to succeed in their journey as a writer. At mermaid publishers, we partner with writers
-                                worldwide and help them get to the limelight they deserve.
+                                A book's publication is no joke. Writing a book takes a lot of the novelist's time and
+                                energy. They are bushed by the time the draught is through. The additional action will be
+                                handled for you by us. The book Publishing is a subject we know like the back of our hands.
                             </p>
                             <ul>
                                 <li>
@@ -187,19 +183,18 @@
                         <div class="section-heading heading-left" data-sal="slide-right" data-sal-duration="1000"
                             data-sal-delay="300">
                             <h1 class="title h2">
-                                ONLINE BOOK PUBLISHING STORE
+                                Why Should You Hire A Book Publishing Company?
                             </h1>
                             <p>
-                                Our vision is to create a sanctuary for all indie authors—a place where they find everything
-                                they
-                                need to succeed in their journey as a writer. At mermaid publishers, we partner with writers
-                                worldwide and help them get to the limelight they deserve.
+                                Several authors published their novels. Why is it any different from yours? We have the
+                                ideal solution for you. Publishing books require a lot more time and effort than it appears
+                                to. You must first prepare your book and get it professionally edited.
                             </p>
                             <div class="d-flex">
-                                <button class="btn btn-primary" style="margin-right: 50px;">
+                                <button class="btn" style="border: 2px solid #000; width: 40%; margin-right: 50px;">
                                     Get Free Qoute
                                 </button>
-                                <button class="btn btn-primary">
+                                <button class="btn" style="border: 2px solid #000; width: 40%;">
                                     Chat Support
                                 </button>
                             </div>
@@ -218,7 +213,7 @@
                 <div class="call-to-action">
                     <div class="section-heading heading-light">
                         <span class="subtitle">Let's Work Together</span>
-                        <h2 class="title">Need a successful project?</h2>
+                        <h2 class="title">Having Trouble With Book Publishing?</h2>
                         <a href="{{ route('contact') }}" class="axil-btn btn-large btn-fill-white">Estimate Project</a>
                     </div>
                     <div class="thumbnail">

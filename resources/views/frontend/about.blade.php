@@ -15,13 +15,17 @@
                         <div class="section-heading heading-left" data-sal="slide-right" data-sal-duration="1000"
                             data-sal-delay="300">
                             <h1 class="title h2">
-                                We help people achieve theircreative dreams!
+                                A Better Way Of
+                                <span>
+                                    Publishing
+                                </span>
                             </h1>
                             <p>
-                                Our vision is to create a sanctuary for all indie authors—a place where they find everything
-                                they
-                                need to succeed in their journey as a writer. At mermaid publishers, we partner with writers
-                                worldwide and help them get to the limelight they deserve.
+                                The largest U.S.-based business solely dedicated to providing pre-press editorial and
+                                production services to publishers of books, journals, textbooks, and white papers is
+                                Emerging Publishers. Since we are not a printer, we can devote all of our skills and
+                                resources to taking your projects from the manuscript stage to the final print-ready and
+                                digital files
                             </p>
                         </div>
                     </div>
@@ -58,10 +62,12 @@
                             <div class="section-heading heading-left">
                                 <span class="subtitle">Who we are</span>
                                 <h2 class="title">Our Vission</h2>
-                                <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit
-                                    nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat
-                                    orci lobortis.</p>
-                                <p>Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
+                                <p>
+                                    Emerging Publishers offers choices that reduce costs and enable you to expand your
+                                    publishing program. By managing production work for clients through Publishing Services,
+                                    we ensure that your projects receive the meticulous attention to detail and excellent
+                                    quality you need.
+                                </p>
                                 <a href="#" class="axil-btn btn-fill-primary btn-large">Read More</a>
                             </div>
                             <div class="case-study-counterup">
@@ -102,10 +108,11 @@
                             <div class="section-heading heading-left">
                                 <span class="subtitle">Who we are</span>
                                 <h2 class="title">Our Mission</h2>
-                                <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit
-                                    nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat
-                                    orci lobortis.</p>
-                                <p>Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
+                                <p>
+                                    Since Emerging Publishers is dedicated to providing excellence with every title we
+                                    publish, we have developed dependable relationships that have lasted for many years and
+                                    thousands of publications.
+                                </p>
                                 <a href="#" class="axil-btn btn-fill-primary btn-large">Read More</a>
                             </div>
                             <div class="case-study-counterup">
@@ -136,12 +143,11 @@
         <section class="section section-padding bg-color-light pb--70">
             <div class="container">
                 <div class="section-heading mb--90">
-                    <span class="subtitle">Process</span>
-                    <h2 class="title">HOW OUR PUBLISHING COMPANY WORK</h2>
+                    <span class="subtitle">OUR PROCESS</span>
+                    <h2 class="title">PROVIDING THE IDEAL BOOK PUBLISHING PROCESS</h2>
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque voluptas consequatur repellendus.
-                        Veniam architecto, saepe consequatur maiores rerum animi recusandae quasi facilis quam consectetur
-                        obcaecati ab voluptates fugit debitis ipsum!
+                        One of the top publishing companies, Emerging Publishers, specializes in all genres, formats, and
+                        publication platforms.
                     </p>
                 </div>
                 <div class="process-work" data-sal="slide-right" data-sal-duration="1000" data-sal-delay="100">
@@ -151,9 +157,11 @@
                     <div class="content">
                         <span class="subtitle">Step One</span>
                         <h3 class="title">Discover</h3>
-                        <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi.
-                            Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis.
-                            Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
+                        <p>
+                            Whether it is a fiction work, a biography, or a business publication, we have a team of
+                            knowledgeable book publishing agents experienced with the nuances of many publishing platforms;
+                            this book publishing agency assures excellent quality and unmatched service.
+                        </p>
                     </div>
                 </div>
                 <div class="process-work content-reverse" data-sal="slide-left" data-sal-duration="1000"
@@ -164,9 +172,11 @@
                     <div class="content">
                         <span class="subtitle">Step Two</span>
                         <h3 class="title">Schedule A FREE Consutation</h3>
-                        <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi.
-                            Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis.
-                            Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
+                        <p>
+                            We endeavor to match your expectations when you provide a preliminary draught along with the
+                            project-specific instructions and offer suggestions for improvement and then schedule a session
+                            with you.
+                        </p>
                     </div>
                 </div>
                 <div class="process-work" data-sal="slide-right" data-sal-duration="1000" data-sal-delay="100">
@@ -176,9 +186,11 @@
                     <div class="content">
                         <span class="subtitle">Step Three</span>
                         <h3 class="title">Get Onboard With Us</h3>
-                        <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi.
-                            Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis.
-                            Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
+                        <p>
+                            We'll assign an accomplished book publishing agent to your project based on your specifications.
+                            We are one of the top publishing firms for good work and punctuality because they consider all
+                            of your requests, build a publication plan, and implement it in the allotted period.
+                        </p>
                     </div>
                 </div>
                 <div class="process-work content-reverse" data-sal="slide-left" data-sal-duration="1000"
@@ -189,9 +201,11 @@
                     <div class="content">
                         <span class="subtitle">Step four</span>
                         <h3 class="title">Getting Work Done</h3>
-                        <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi.
-                            Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis.
-                            Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
+                        <p>
+                            Your unedited manuscripts go through a rigorous proofreading process by our proofreaders. For
+                            perfect outcomes, we still run them via named programs like Grammarly, White smoke, and
+                            Copyscape. We make sure to get the work done.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -218,7 +232,7 @@
                 <div class="call-to-action">
                     <div class="section-heading heading-light">
                         <span class="subtitle">Let's Work Together</span>
-                        <h2 class="title">Need a successful project?</h2>
+                        <h2 class="title">Speak With One Of Our Knowledgeable Executives About Your Questions Regarding Book Publishing</h2>
                         <a href="{{ route('contact') }}" class="axil-btn btn-large btn-fill-white">Estimate Project</a>
                     </div>
                     <div class="thumbnail">

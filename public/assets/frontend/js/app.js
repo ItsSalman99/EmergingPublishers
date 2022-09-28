@@ -1,20 +1,35 @@
-(function(window, document, $, undefined) {
+
+function openPop() {
+    $('#pop').show();
+}
+
+
+function closePop() {
+    $('#pop').hide();
+}
+
+
+function showPop() {
+    $('#pop').show();
+}
+
+(function (window, document, $, undefined) {
     'use strict';
 
     var axilInit = {
-        i: function(e) {
+        i: function (e) {
             axilInit.s();
             axilInit.methods();
         },
 
-        s: function(e) {
+        s: function (e) {
             this._window = $(window),
                 this._document = $(document),
                 this._body = $('body'),
                 this._html = $('html')
         },
 
-        methods: function(e) {
+        methods: function (e) {
             axilInit.w();
             axilInit.contactForm();
             axilInit.axilBackToTop();
@@ -41,54 +56,24 @@
 
         },
 
-        w: function(e) {
+        w: function (e) {
             this._window.on('load', axilInit.l).on('scroll', axilInit.res)
         },
 
-        contactForm: function() {
-            $('.axil-contact-form').on('submit', function(e) {
-                e.preventDefault();
-                var _self = $(this);
-                var _selector = _self.closest('input,textarea');
-                _self.closest('div').find('input,textarea').removeAttr('style');
-                _self.find('.error-msg').remove();
-                _self.closest('div').find('button[type="submit"]').attr('disabled', 'disabled');
-                var data = $(this).serialize();
-                $.ajax({
-                    url: 'mail.php',
-                    type: 'post',
-                    dataType: 'json',
-                    data: data,
-                    success: function(data) {
-                        _self.closest('div').find('button[type="submit"]').removeAttr('disabled');
-                        if (data.code === false) {
-                            _self.closest('div').find('[name="' + data.field + '"]');
-                            _self.find('.btn-primary').after('<div class="error-msg"><p>*' + data.err + '</p></div>');
-                        } else {
-                            $('.error-msg').hide();
-                            $('.form-group').removeClass('focused');
-                            _self.find('.btn-primary').after('<div class="success-msg"><p>' + data.success + '</p></div>');
-                            _self.closest('div').find('input,textarea').val('');
+        contactForm: function () {
 
-                            setTimeout(function() {
-                                $('.success-msg').fadeOut('slow');
-                            }, 5000);
-                        }
-                    }
-                });
-            });
         },
 
-        axilBackToTop: function() {
+        axilBackToTop: function () {
             var btn = $('#backto-top');
-            $(window).on('scroll', function() {
+            $(window).on('scroll', function () {
                 if ($(window).scrollTop() > 300) {
                     btn.addClass('show');
                 } else {
                     btn.removeClass('show');
                 }
             });
-            btn.on('click', function(e) {
+            btn.on('click', function (e) {
                 e.preventDefault();
                 $('html, body').animate({
                     scrollTop: 0
@@ -96,23 +81,23 @@
             });
         },
 
-        themeColorSet: function() {
+        themeColorSet: function () {
 
             var defaultColor = 'active-light-mode';
 
             if ($('body').hasClass('active-dark-mode')) {
                 $('body').removeClass('active-light-mode');
-            }else if ($('body').hasClass('active-light-mode')) {
+            } else if ($('body').hasClass('active-light-mode')) {
                 $('body').removeClass('active-dark-mode');
-            }else {
+            } else {
                 $('body').addClass(defaultColor);
             }
 
         },
 
-        stickyHeaderMenu: function() {
+        stickyHeaderMenu: function () {
 
-            $(window).on('scroll', function() {
+            $(window).on('scroll', function () {
                 // Sticky Class Add
                 if ($('body').hasClass('sticky-header')) {
                     var stickyPlaceHolder = $('#axil-sticky-placeholder'),
@@ -131,9 +116,9 @@
             });
         },
 
-        mobileMenuActivation: function(e) {
+        mobileMenuActivation: function (e) {
 
-            $('.menu-item-has-children > a').on('click', function(e) {
+            $('.menu-item-has-children > a').on('click', function (e) {
 
                 var targetParent = $(this).parents('.mainmenu-nav'),
                     target = $(this).siblings('.axil-submenu'),
@@ -157,20 +142,20 @@
                 } else {
                     $('body').addClass('mobilemenu-active');
                     $('#mobilemenu-popup').addClass('offcanvas');
-                    $('.menu-item-has-children > a').on('click', function(e) {
+                    $('.menu-item-has-children > a').on('click', function (e) {
                         e.preventDefault();
                     });
                 }
             }
 
-            $(window).on('resize', function() {
+            $(window).on('resize', function () {
                 resizeClassAdd();
             });
 
             resizeClassAdd();
         },
 
-        salActivation: function() {
+        salActivation: function () {
             sal({
                 threshold: 0.1,
                 once: true
@@ -223,8 +208,8 @@
         counterUp: function () {
 
             var elementSelector = $('.count');
-            elementSelector.each(function(){
-                elementSelector.appear(function(e) {
+            elementSelector.each(function () {
+                elementSelector.appear(function (e) {
                     var el = this;
                     var updateData = $(el).attr("data-count");
                     var od = new Odometer({
@@ -237,11 +222,11 @@
             });
         },
 
-        axilSlickActivation: function(e) {
+        axilSlickActivation: function (e) {
             $('.slick-slider').slick();
         },
 
-        magnificPopupActivation: function() {
+        magnificPopupActivation: function () {
 
             var yPopup = $('.popup-youtube');
             if (yPopup.length) {
@@ -256,10 +241,10 @@
             }
         },
 
-        countdownInit: function(countdownSelector, countdownTime) {
+        countdownInit: function (countdownSelector, countdownTime) {
             var eventCounter = $(countdownSelector);
             if (eventCounter.length) {
-                eventCounter.countdown(countdownTime, function(e) {
+                eventCounter.countdown(countdownTime, function (e) {
                     $(this).html(
                         e.strftime(
                             "<div class='countdown-section'><div><div class='countdown-number'>%D</div> <div class='countdown-unit'>Day%!D</div> </div></div><div class='countdown-section'><div><div class='countdown-number'>%H</div> <div class='countdown-unit'>Hour%!H</div> </div></div><div class='countdown-section'><div><div class='countdown-number'>%M</div> <div class='countdown-unit'>Minutes</div> </div></div><div class='countdown-section'><div><div class='countdown-number'>%S</div> <div class='countdown-unit'>Seconds</div> </div></div>"
@@ -285,10 +270,10 @@
 
         menuLinkActive: function () {
             var currentPage = location.pathname.split("/"),
-                current = currentPage[currentPage.length-1];
-            $('.mainmenu li a, .main-navigation li a').each(function(){
+                current = currentPage[currentPage.length - 1];
+            $('.mainmenu li a, .main-navigation li a').each(function () {
                 var $this = $(this);
-                if($this.attr('href') === current){
+                if ($this.attr('href') === current) {
                     $this.addClass('active');
                     $this.parents('.menu-item-has-children').addClass('menu-item-open')
                 }
@@ -320,14 +305,14 @@
                 yearlyPrice = $('.yearly-pricing');
 
 
-            $(monthlySelectBtn).on('click', function() {
+            $(monthlySelectBtn).on('click', function () {
                 $(this).addClass('active').parent('.nav-item').siblings().children().removeClass('active');
                 monthlyPrice.css('display', 'block');
                 yearlyPrice.css('display', 'none');
 
             });
 
-            $(yearlySelectBtn).on('click', function() {
+            $(yearlySelectBtn).on('click', function () {
                 $(this).addClass('active').parent('.nav-item').siblings().children().removeClass('active');
                 monthlyPrice.css('display', 'none');
                 yearlyPrice.css('display', 'block');
@@ -346,10 +331,10 @@
             });
         },
 
-        axilHover : function () {
-            $('.services-grid, .counterup-progress, .testimonial-grid, .pricing-table, .brand-grid, .blog-list, .about-quality, .team-grid, .splash-hover-control').mouseenter(function() {
+        axilHover: function () {
+            $('.services-grid, .counterup-progress, .testimonial-grid, .pricing-table, .brand-grid, .blog-list, .about-quality, .team-grid, .splash-hover-control').mouseenter(function () {
                 var self = this;
-                setTimeout(function() {
+                setTimeout(function () {
                     $('.services-grid.active, .counterup-progress.active, .testimonial-grid.active, .pricing-table.active, .brand-grid.active, .blog-list.active, .about-quality.active, .team-grid.active, .splash-hover-control.active').removeClass('active');
                     $(self).addClass('active');
                 }, 0);
@@ -357,7 +342,7 @@
             });
         },
 
-        onePageTopFixed : function () {
+        onePageTopFixed: function () {
             if ($('.onepagefixed').length) {
                 var fixedElem = $('.onepagefixed'),
                     distance = fixedElem.offset().top - 100,
@@ -365,7 +350,7 @@
                     totalDistance = $('.service-scroll-navigation-area').outerHeight() + distance;
 
                 $(window).on('scroll', function () {
-                    if ( $window.scrollTop() >= distance ) {
+                    if ($window.scrollTop() >= distance) {
                         fixedElem.css({
                             position: 'fixed',
                             left: '0',
@@ -373,18 +358,18 @@
                             top: '0',
                             zIndex: '5'
                         });
-                    }else {
+                    } else {
                         fixedElem.removeAttr('style');
                     }
 
-                    if ($window.scrollTop() >= totalDistance ) {
+                    if ($window.scrollTop() >= totalDistance) {
                         fixedElem.removeAttr('style');
                     }
                 });
             }
         },
 
-        blogModalActivation : function () {
+        blogModalActivation: function () {
 
             var modalBox = $('.op-blog-modal');
             var blogList = $('.blog-list');
@@ -392,7 +377,7 @@
 
             if ($('body').hasClass('onepage-template')) {
 
-                blogList.each(function() {
+                blogList.each(function () {
 
                     var $this = $(this);
                     var buttons = $this.find('.post-thumbnail a, .title a, .more-btn');
@@ -401,7 +386,7 @@
                     var paragraph = $this.find('.post-content p');
                     var socialShare = $this.find('.blog-share');
 
-                    buttons.on('click', function(e){
+                    buttons.on('click', function (e) {
                         $('body').addClass('op-modal-open');
                         modalBox.addClass('open');
                         mainImg.clone().appendTo('.op-modal-content .post-thumbnail');
@@ -414,7 +399,7 @@
 
                 });
 
-                modalClose.on('click', function(e) {
+                modalClose.on('click', function (e) {
                     $('body').removeClass('op-modal-open');
                     modalBox.removeClass('open');
                     modalBox.find('.op-modal-content .post-content').html('');
@@ -422,7 +407,7 @@
                     e.preventDefault();
                 });
 
-                $('#onepagenav li a').on('click', function() {
+                $('#onepagenav li a').on('click', function () {
                     var popupMenuWrap = $('#mobilemenu-popup .mobile-menu-close, .header-offcanvasmenu .btn-close');
                     if ($('#mobilemenu-popup, .header-offcanvasmenu').hasClass('offcanvas')) {
                         popupMenuWrap.trigger('click');
@@ -432,7 +417,7 @@
             }
         },
 
-        portfolioModalActivation : function () {
+        portfolioModalActivation: function () {
 
             var modalBox = $('.op-portfolio-modal');
             var projectList = $('.project-grid');
@@ -440,7 +425,7 @@
 
             if ($('body').hasClass('onepage-template')) {
 
-                projectList.each(function() {
+                projectList.each(function () {
 
                     var $this = $(this);
                     var buttons = $this.find('.thumbnail a, .title a');
@@ -448,7 +433,7 @@
                     var title = $this.find('.title');
                     var paragraph = $this.find('.content p');
                     var socialShare = $this.find('.project-share');
-                    buttons.on('click', function(e){
+                    buttons.on('click', function (e) {
                         $('body').addClass('op-modal-open');
                         modalBox.addClass('open');
                         mainImg.clone().appendTo('.op-modal-content .portfolio-thumbnail');
@@ -461,7 +446,7 @@
 
                 });
 
-                modalClose.on('click', function(e) {
+                modalClose.on('click', function (e) {
                     $('body').removeClass('op-modal-open');
                     modalBox.removeClass('open');
                     modalBox.find('.op-modal-content .portfolio-content').html('');
@@ -471,7 +456,7 @@
             }
         },
 
-        caseModalActivation : function () {
+        caseModalActivation: function () {
 
             var modalBox = $('.op-case-modal');
             var caseList = $('.case-study-featured');
@@ -479,14 +464,14 @@
 
             if ($('body').hasClass('onepage-template')) {
 
-                caseList.each(function() {
+                caseList.each(function () {
 
                     var $this = $(this);
                     var buttons = $this.find('.axil-btn');
                     var title = $this.find('.title');
                     var paragraph = $this.find('.section-heading p');
 
-                    buttons.on('click', function(e){
+                    buttons.on('click', function (e) {
                         $('body').addClass('op-modal-open');
                         modalBox.addClass('open');
                         title.clone().appendTo('.op-modal-content .case-content');
@@ -497,7 +482,7 @@
 
                 });
 
-                modalClose.on('click', function(e) {
+                modalClose.on('click', function (e) {
                     $('body').removeClass('op-modal-open');
                     modalBox.removeClass('open');
                     modalBox.find('.op-modal-content .case-content').html('');

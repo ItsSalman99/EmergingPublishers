@@ -11,4 +11,10 @@ Route::get('/our-pricing', [HomeController::class, 'pricing'])->name('pricing');
 
 Route::get('/book-publishing', [ServiceController::class, 'bookPublishing'])->name('book-publishing');
 Route::get('/book-editing', [ServiceController::class, 'bookEditing'])->name('book-editing');
+Route::get('/book-marketing', [ServiceController::class, 'bookMarketing'])->name('book-marketing');
+Route::get('/book-ghostwriting', [ServiceController::class, 'bookGhostWriting'])->name('book-ghostwriting');
+
+Route::get('/printing-press', [HomeController::class, 'printingPress'])->name('printing-press');
+
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
+Route::post('send-quote', [ContactController::class, 'store'])->name('send-quote');

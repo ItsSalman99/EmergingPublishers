@@ -21,4 +21,9 @@ class HomeController extends Controller
         return view('frontend.pricing');
     }
 
+    public function printingPress()
+    {
+        return view('frontend.printing-press');
+    }
+
 }

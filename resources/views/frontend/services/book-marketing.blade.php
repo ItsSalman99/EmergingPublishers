@@ -5,18 +5,21 @@
 
         @include('frontend.partials.header')
 
-        <section class="banner banner-style-5" style="background-image: url('assets/frontend/media/bg5.jpg')">
+        <section class="banner banner-style-5" style="background-image: url('assets/frontend/media/bg6.jpg')">
             <div class="container">
                 <div class="">
                     <div class="">
                         <div class="banner-content text-center">
                             <h1 class="title" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
-                                Turn Good Writing Into A Great Book
+                                Book Marketing Services
                             </h1>
                             <p class="text-white">
-                                Book editors make sure your writing is compelling and fluent, as well as all of your Is and
-                                Ts are crossed. The best method to ensure your book is flawless before publishing is to
-                                spend money on editing services from a reputable company.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi natus assumenda expedita
+                                vitae, vero eaque odio ipsam at cum iste cupiditate neque molestias a, officia doloremque
+                                deleniti delectus earum totam!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, esse? Nesciunt quod delectus
+                                modi voluptate, unde at explicabo culpa vel et nostrum vero labore quasi natus ea molestiae
+                                quibusdam nulla.
                             </p>
                         </div>
                     </div>
@@ -26,18 +29,15 @@
 
         <section class="section section-padding-2" style="z-index: 2;">
             <div class="container">
-                <div class="row service-gap">
+                <div class="row service-gap" >
                     <div class="col-xl-3 col-md-6 sal-animate" data-sal="slide-up" data-sal-duration="800"
                         data-sal-delay="100">
                         <div class="service-container" style="border: 2px solid #eee;">
-                            <h5 style="width: 100%!important;">
-                                Book Formatting
-                            </h5>
+                            <h5 style="width: 100%!important;">Author Website</h5>
                             <p>
-                                Expert language editors may turn writings into books with a clear, grammatically correct,
-                                and native-English tone after being chosen and trained for their attention to detail. Our
-                                language editors are also subject-matter specialists, so they will ensure that any
-                                terminology or grammatical constructions used in your work are accurate.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iste labore voluptate
+                                explicabo unde minus fugit. Eaque accusamus quasi placeat eveniet repudiandae similique
+                                molestias hic? Harum sunt commodi tempora obcaecati.
                             </p>
                             <button type="submit" class="btn btn-service" name="submit-btn">Get
                                 Get Started
@@ -47,11 +47,11 @@
                     <div class="col-xl-3 col-md-6 sal-animate" data-sal="slide-up" data-sal-duration="800"
                         data-sal-delay="200">
                         <div class="service-container" style="border: 2px solid #eee;">
-                            <h5 style="width: 100%!important;">Syntax Correction</h5>
+                            <h5 style="width: 100%!important;">Book Cover Design</h5>
                             <p>
-                                Your manuscript can be reviewed several times for a price that works for you. When you have
-                                considered our editor's advice and want us to perform one more check before submitting it to
-                                the publication, we advise using this service.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iste labore voluptate
+                                explicabo unde minus fugit. Eaque accusamus quasi placeat eveniet repudiandae similique
+                                molestias hic? Harum sunt commodi tempora obcaecati.
                             </p>
                             <button type="submit" class="btn btn-service" name="submit-btn">Get
                                 Get Started
@@ -61,11 +61,11 @@
                     <div class="col-xl-3 col-md-6 sal-animate" data-sal="slide-up" data-sal-duration="800"
                         data-sal-delay="300">
                         <div class="service-container" style="border: 2px solid #eee;">
-                            <h5 style="width: 100%!important;">Development Editing</h5>
+                            <h5 style="width: 100%!important;">Custom Book Illustration</h5>
                             <p>
-                                The more extensive elements of your book, such as the story, characters, ideas, and tone,
-                                are closely examined during developmental editing. Before you get into the specifics of each
-                                line, a developmental editor ensures that these "big picture" components are solid.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iste labore voluptate
+                                explicabo unde minus fugit. Eaque accusamus quasi placeat eveniet repudiandae similique
+                                molestias hic? Harum sunt commodi tempora obcaecati.
                             </p>
                             <button type="submit" class="btn btn-service" name="submit-btn">Get
                                 Get Started
@@ -75,12 +75,11 @@
                     <div class="col-xl-3 col-md-6 sal-animate" data-sal="slide-up" data-sal-duration="800"
                         data-sal-delay="100">
                         <div class="service-container" style="border: 2px solid #eee;">
-                            <h5 style="width: 100%!important;">Rewrites & Paraphasing</h5>
+                            <h5 style="width: 100%!important;">Book Trailer</h5>
                             <p>
-                                Do you have any concerns regarding the safety of your unpublished work? Our language editors
-                                and subject matter experts sign a non-disclosure agreement in addition to a secure online
-                                submission mechanism since we understand your worry. To protect your interests, we are also
-                                happy to sign a confidentiality agreement with you.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iste labore voluptate
+                                explicabo unde minus fugit. Eaque accusamus quasi placeat eveniet repudiandae similique
+                                molestias hic? Harum sunt commodi tempora obcaecati.
                             </p>
                             <button type="submit" class="btn btn-service" name="submit-btn">Get
                                 Get Started
@@ -101,13 +100,13 @@
                         <div class="section-heading heading-left" data-sal="slide-right" data-sal-duration="1000"
                             data-sal-delay="300">
                             <h1 class="title h2">
-                                Why Trust Us To Edit Your Book?
+                                Be Confident in the Written Content
                             </h1>
                             <p>
-                                The network of editors at Emerging Publishers has experience with various fiction novels,
-                                from romance to science fiction, and nonfiction publications like academic journals and
-                                biographies. Many seasoned experts have collaborated with bestselling authors across
-                                numerous genres and a few publishing firms.
+                                Our vision is to create a sanctuary for all indie authors—a place where they find everything
+                                they
+                                need to succeed in their journey as a writer. At mermaid publishers, we partner with writers
+                                worldwide and help them get to the limelight they deserve.
                             </p>
                         </div>
                     </div>
@@ -139,14 +138,13 @@
                         <div class="section-heading heading-left" data-sal="slide-right" data-sal-duration="1000"
                             data-sal-delay="300">
                             <h1 class="title h2">
-                                Finding The Right Book Editor
+                                Do you want to have your very own book?
                             </h1>
                             <p>
-                                The romantic notion of an author working on a polished book alone in their chamber is simply
-                                that—a myth. Although writing might be a solitary endeavor, the best books result from
-                                teamwork. Professional book editors are essential collaborators since they have the
-                                expertise, talent, and revising abilities to turn your book from a draught into a
-                                bestseller!
+                                Our vision is to create a sanctuary for all indie authors—a place where they find everything
+                                they
+                                need to succeed in their journey as a writer. At mermaid publishers, we partner with writers
+                                worldwide and help them get to the limelight they deserve.
                             </p>
                             <ul>
                                 <li>
@@ -189,12 +187,13 @@
                         <div class="section-heading heading-left" data-sal="slide-right" data-sal-duration="1000"
                             data-sal-delay="300">
                             <h1 class="title h2">
-                                Emerging Publishers Understand the Complexities of Book Editing
+                                Ensuring Perfection in the Final Content
                             </h1>
                             <p>
-                                Book editing demands attention to detail, which Emerging Publishers, a book editing firm,
-                                comprehends well. In addition to the usual grammar and accuracy checks, it necessitates
-                                managing and resolving numerous intricate style and content-related problems.
+                                Our vision is to create a sanctuary for all indie authors—a place where they find everything
+                                they
+                                need to succeed in their journey as a writer. At mermaid publishers, we partner with writers
+                                worldwide and help them get to the limelight they deserve.
                             </p>
                             <div class="d-flex">
                                 <button class="btn btn-primary" style="margin-right: 50px;">
@@ -219,7 +218,7 @@
                 <div class="call-to-action">
                     <div class="section-heading heading-light">
                         <span class="subtitle">Let's Work Together</span>
-                        <h2 class="title">Not Sure What Type Of Book Editing Service You Need?</h2>
+                        <h2 class="title">Need a successful project?</h2>
                         <a href="{{ route('contact') }}" class="axil-btn btn-large btn-fill-white">Estimate Project</a>
                     </div>
                     <div class="thumbnail">

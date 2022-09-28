@@ -13,9 +13,9 @@
                 <div class="breadcrumb">
                     <ul class="list-unstyled">
                         <li><a href="index-1.html">Home</a></li>
-                        <li class="active">Pricing</li>
+                        <li class="active">PRICING AND PLANS</li>
                     </ul>
-                    <h1 class="title h2">Pricing</h1>
+                    <h1 class="title h2">PRICING AND PLANS</h1>
                 </div>
             </div>
             <ul class="shape-group-8 list-unstyled">
@@ -36,16 +36,12 @@
         <section class="section section-padding">
             <div class="container">
                 <div class="section-heading mb-0">
-                    <span class="subtitle">Pricing Plan</span>
-                    <h2 class="title">Find the Right Plan.</h2>
+                    <span class="subtitle">PRICING AND PLANS</span>
+                    <h2 class="title">Have A Look At Our Pricing!</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, recusandae, esse voluptatum ducimus
-                        quasi quidem mollitia, dolorem blanditiis molestias nesciunt minus alias exercitationem nulla id
-                        quam delectus nisi. Voluptates, expedita!
-                        <br><br>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repellat expedita doloribus voluptas
-                        ipsa porro quisquam, error a vitae rerum, molestiae atque? Cupiditate, numquam sed ducimus atque
-                        repudiandae architecto neque?
+                        It is worthwhile to take a closer look at a price since it can shed light on noticeable and
+                        potentially concerning anomalies in a book's marketing and sales strategy.
+                        We created a pricing plan according to your budget. have a look!
                     </p>
                 </div>
                 <div class="pricing-billing-duration">
@@ -175,7 +171,7 @@
                 <div class="call-to-action">
                     <div class="section-heading heading-light">
                         <span class="subtitle">Let's Work Together</span>
-                        <h2 class="title">Need a successful project?</h2>
+                        <h2 class="title">Find The Right Publishing Company</h2>
                         <a href="{{ route('contact') }}" class="axil-btn btn-large btn-fill-white">Estimate Project</a>
                     </div>
                     <div class="thumbnail">

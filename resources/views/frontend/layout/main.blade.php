@@ -34,6 +34,10 @@
         <i class="far fa-angle-double-up"></i>
     </a>
 
+
+    @include('frontend.partials.pop-up')
+
+
     <!-- Preloader Start Here -->
     <div id="preloader"></div>
     <!-- Preloader End Here -->

@@ -24,8 +24,8 @@
                         <div class="footer-newsletter">
                             <h2 class="title">Emerging Publishers</h2>
                             <p>
-                                Fusce varius, dolor tempor interdum tristique, dui urna bib
-                                endum magna, ut ullamcorper purus
+                                We are pleased to state that Emerging Publishers was created, is owned by, and is
+                                operated by skilled authors and editors.
                             </p>
                         </div>
                     </div>
@@ -37,9 +37,9 @@
                                 <h6 class="widget-title">Services</h6>
                                 <div class="footer-menu-link">
                                     <ul class="list-unstyled">
-                                        <li><a >Book Writing</a></li>
-                                        <li><a >Book Publishing</a></li>
-                                        <li><a >Book Marketing</a></li>
+                                        <li><a>Book Writing</a></li>
+                                        <li><a>Book Publishing</a></li>
+                                        <li><a>Book Marketing</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -74,8 +74,8 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="footer-copyright">
-                        <span class="copyright-text">© 2021. All rights reserved by <a
-                                href="#">Emerging Publishers</a>.</span>
+                        <span class="copyright-text">© 2021. All rights reserved by <a href="#">Emerging
+                                Publishers</a>.</span>
                     </div>
                 </div>
                 <div class="col-md-6">

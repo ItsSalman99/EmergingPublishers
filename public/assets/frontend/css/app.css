@@ -1,11 +1,4 @@
 /*---------------------------------------------
-Template Name: Abstrak
-Template URL: https://new.axilthemes.com/demo/template/abstrak/
-Description: Digital Agency HTML5 Template
-Author: Axilthemes
-Author URL: https://axilthemes.com/
-Version: 1.6.0
-
 ===============================================
 STYLESHEET INDEXING
 |
@@ -114,6 +107,147 @@ STYLESHEET INDEXING
     --h5: 24px;
     --h6: 20px;
 }
+
+/* By Salman */
+
+.service-container {
+    height: 500px;
+    padding: 30px 30px 30px;
+    border-radius: 30px;
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 1;
+    transition: var(--transition);
+    background-color: #fff;
+}
+
+.service-container:hover {
+    animation: myAnim 2s ease 0s 2;
+}
+
+@keyframes myAnim {
+    0% {
+        top: -20px;
+    }
+
+    50% {
+        top: -10px;
+    }
+
+    80% {
+        top: -5px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+.press-container{
+    height: 300px;
+    text-align: center;
+    padding: 40px;
+    border-radius: 50px;
+    background-color: #fff;
+    transition: 0.6s;
+}
+.press-container:hover{
+    padding: 50px;
+    height: 320px;
+    box-shadow: 2px 2px 2px 2px #000;
+}
+.press-container img{
+    width: 50%;
+}
+
+.our-service-container{
+    height: 400px;
+    padding: 30px;
+    border-radius: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+.our-service-container:hover{
+    box-shadow: 2px 2px 2px 8px red;
+}
+.our-service-container button{
+    border: 2px solid #000;
+    font-size: 25px;
+    transform: translateY(50%);
+    transition: 0.6s;
+}
+.our-service-container button:hover{
+    background-color: red;
+    color: #fff;
+    border: 0px;
+}
+
+.btn-service {
+    position: absolute;
+    bottom: 30px;
+    border: 2px solid #000;
+    width: 80% !important;
+    margin: 0 auto;
+}
+
+.btn-service:hover {
+    background-color: dodgerblue;
+    color: #fff;
+}
+
+h1 span {
+    color: #fff;
+    background-color: red;
+}
+
+h2 span {
+    color: #fff;
+    background-color: red;
+}
+
+.pop-bg {
+    background-color: red;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.pop-up {
+    overflow: hidden;
+    background-color: #fff;
+    width: 60%;
+    transform: translateX(30%);
+    position: fixed;
+    top: 10px;
+    z-index: 99999999999;
+    box-shadow: 2px 2px 2px 2px #000;
+    border-radius: 20px;
+    height: 95%;
+    padding: 40px;
+}
+
+.close-pop {
+    font-size: 20px !important;
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.service-gap{
+    position: relative;
+    top: -300px;
+}
+
+/* By Salman */
 
 /*-------------------------
     Reset Styels
@@ -1103,7 +1237,7 @@ input {
 }
 
 .axil-btn.btn-fill-white:hover {
-    background-color: var(--color-accent1);
+    background-color: dodgerblue;
     color: var(--color-white);
 }
 
@@ -2723,9 +2857,8 @@ Pagination
     width: 80px;
     line-height: 80px;
     border-radius: 50%;
-    background: -webkit-linear-gradient(left, #565677 0%, rgba(39, 39, 46, 0) 70.31%);
-    background: linear-gradient(90deg, #565677 0%, rgba(39, 39, 46, 0) 70.31%);
-    color: var(--color-white);
+    background-color: #fff;
+    color: #000;
     margin-bottom: 40px;
     -webkit-transition: var(--transition);
     transition: var(--transition);
@@ -2744,7 +2877,8 @@ Pagination
 
 .about-quality:hover .sl-number,
 .about-quality.active .sl-number {
-    background-color: var(--color-primary);
+    background-color: red;
+    color: #fff;
 }
 
 .about-quality:hover p,
@@ -2826,6 +2960,13 @@ Pagination
     font-size: 80px;
     font-weight: 700;
     color: var(--color-dark);
+}
+
+.banner .banner-content .title span {
+    font-size: 50px;
+    color: #fff;
+    background-color: red;
+    padding: 5px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
@@ -3161,12 +3302,67 @@ Pagination
     .banner.banner-style-2 {
         padding: 80px 30px;
     }
+
+    .banner .banner-content .title span {
+        font-size: 17px;
+    }
+
+    .service-gap{
+        top: -140px;
+    }
+
+    .imgcol {
+        display: none;
+        visibility: hidden;
+    }
+
+    .pop-up {
+        width: 100%;
+        height: 100%;
+        transform: translateX(0%);
+        top: 5px;
+    }
+
+    .close-pop {
+        font-size: 12px !important;
+    }
+
+    .pop-up h4 {
+        font-size: 18px;
+    }
+
+    .pop-up span {
+        font-size: 20px !important;
+    }
+
+    .pop-up form input {
+        font-size: 12px;
+        height: 40px;
+    }
+
+    .pop-up form button {
+        padding: 10px;
+    }
 }
 
 @media only screen and (max-width: 575px) {
     .banner.banner-style-2 {
         margin: 0 15px;
     }
+
+    .banner .banner-content .title span {
+        font-size: 20px;
+    }
+
+    .imgcol {
+        display: none;
+        visibility: hidden;
+    }
+
+    .close-pop {
+        font-size: 12px !important;
+    }
+
 }
 
 .banner.banner-style-2 .banner-content {
@@ -3403,7 +3599,8 @@ Pagination
 }
 
 .banner.banner-style-5 {
-    background-image: url("/assets/frontend/media/bg.jpg");
+    background-image: url("/assets/frontend/media/bg3.jpg");
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -4063,7 +4260,7 @@ Pagination
 
 .counterup-progress .count-number {
     font-weight: 500;
-    color: var(--color-primary);
+    color: #fff;
     font-family: var(--font-primary);
     margin-bottom: 10px;
     letter-spacing: -0.045em;
@@ -4085,7 +4282,7 @@ Pagination
 
 .counterup-progress:hover,
 .counterup-progress.active {
-    background: var(--gradient-dark);
+    background: var(--gradient-blue);
 }
 
 .counterup-progress.counterup-style-2 {
@@ -10705,16 +10902,4 @@ body.op-modal-open {
     transition: all 0.3s ease-in-out 0s;
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
-}
-
-.service-container {
-    height: 500px;
-    padding: 50px 50px 40px;
-    border-radius: 30px;
-    -webkit-transition: var(--transition);
-    transition: var(--transition);
-    margin-bottom: 40px;
-    position: relative;
-    z-index: 1;
-    transition: var(--transition);
 }
