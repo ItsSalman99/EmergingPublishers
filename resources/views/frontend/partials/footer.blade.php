@@ -37,9 +37,10 @@
                                 <h6 class="widget-title">Services</h6>
                                 <div class="footer-menu-link">
                                     <ul class="list-unstyled">
-                                        <li><a>Book Writing</a></li>
-                                        <li><a>Book Publishing</a></li>
-                                        <li><a>Book Marketing</a></li>
+                                        <li><a href="{{ route('book-publishing') }}">Book Publishing</a></li>
+                                        <li><a href="{{ route('book-editing') }}">Book Editing</a></li>
+                                        <li><a href="{{ route('book-marketing') }}">Book Marketing</a></li>
+                                        <li><a href="{{ route('book-ghostwriting') }}">Book GhostWriting</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -49,8 +50,8 @@
                                 <h6 class="widget-title">Resourses</h6>
                                 <div class="footer-menu-link">
                                     <ul class="list-unstyled">
-                                        <li><a> About</a></li>
-                                        <li><a>Free Consultation</a></li>
+                                        <li><a href="{{ route('about') }}">About</a></li>
+                                        <li><a href="{{ route('contact') }}">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -60,8 +61,8 @@
                                 <h6 class="widget-title">Support</h6>
                                 <div class="footer-menu-link">
                                     <ul class="list-unstyled">
-                                        <li><a>Privacy Policy</a></li>
-                                        <li><a>Terms of Use</a></li>
+                                        <li><a href="{{ route('privacy') }}">Privacy Policy</a></li>
+                                        <li><a href="{{ route('our-terms') }}">Terms of Use</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -81,8 +82,8 @@
                 <div class="col-md-6">
                     <div class="footer-bottom-link">
                         <ul class="list-unstyled">
-                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                            <li><a href="terms-of-use.html">Terms of Use</a></li>
+                            <li><a href="{{ route('privacy') }}">Privacy Policy</a></li>
+                            <li><a href="{{ route('our-terms') }}">Terms of Use</a></li>
                         </ul>
                     </div>
                 </div>

@@ -16,7 +16,7 @@
                             data-sal-delay="300">
                             <h1 class="title h2">
                                 A Better Way Of
-                                <span>
+                                <span style="border-bottom: 2px solid red;">
                                     Publishing
                                 </span>
                             </h1>
@@ -29,7 +29,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-xl-4" style="margin-left: 200px;">
+                    <div class="col-lg-6 col-xl-6">
                         <img src="{{ asset('assets/frontend/media/hero-book2.png') }}" alt="">
                     </div>
                 </div>

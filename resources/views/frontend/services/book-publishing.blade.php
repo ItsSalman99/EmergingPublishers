@@ -12,7 +12,9 @@
                         <div class="banner-content text-center">
                             <h2 class="text-white" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
                                 Publish Your Book Over Renowned Platforms through our
-                                Book Publishing Services
+                                <span>
+                                    Book Publishing Services
+                                </span>
                             </h2>
                             <p class="text-white">
                                 Many thousands of writers have poured their hearts and souls into a manuscript, but book
@@ -38,7 +40,7 @@
                                 Our clients receive editorial support from us, ensuring that the final output is free of any
                                 problems or errors. By doing this, you may be confident that your book is top-notch.
                             </p>
-                            <button type="submit" class="btn btn-service" name="submit-btn">Get
+                            <button type="submit" class="btn btn-service" onClick="openPop()">
                                 Get Started
                             </button>
                         </div>
@@ -51,7 +53,7 @@
                                 Our marketing specialists will make sure to create a marketing plan specifically for your
                                 company. This ensures that your exposure is maximized and that your revenues increase.
                             </p>
-                            <button type="submit" class="btn btn-service" name="submit-btn">Get
+                            <button type="submit" class="btn btn-service" onClick="openPop()">
                                 Get Started
                             </button>
                         </div>
@@ -64,7 +66,7 @@
                                 Your book gains some legitimacy when you have a well-known publishing house on your side.
                                 Additionally, it aids in book promotion in a manner that self-publishing cannot.
                             </p>
-                            <button type="submit" class="btn btn-service" name="submit-btn">Get
+                            <button type="submit" class="btn btn-service" onClick="openPop()">
                                 Get Started
                             </button>
                         </div>
@@ -78,7 +80,7 @@
                                 because you won't be able to manage the book's promotion while also managing everything
                                 else.
                             </p>
-                            <button type="submit" class="btn btn-service" name="submit-btn">Get
+                            <button type="submit" class="btn btn-service" onClick="openPop()">
                                 Get Started
                             </button>
                         </div>
@@ -191,10 +193,10 @@
                                 to. You must first prepare your book and get it professionally edited.
                             </p>
                             <div class="d-flex">
-                                <button class="btn" style="border: 2px solid #000; width: 40%; margin-right: 50px;">
+                                <button class="btn" style="border: 2px solid #000; width: 40%; margin-right: 50px;" onclick="openPop()">
                                     Get Free Qoute
                                 </button>
-                                <button class="btn" style="border: 2px solid #000; width: 40%;">
+                                <button class="btn" style="border: 2px solid #000; width: 40%;" onclick="openPop()">
                                     Chat Support
                                 </button>
                             </div>

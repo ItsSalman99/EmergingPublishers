@@ -30,6 +30,7 @@
 </head>
 
 <body class="sticky-header">
+
     <a href="#main-wrapper" id="backto-top" class="back-to-top">
         <i class="far fa-angle-double-up"></i>
     </a>
@@ -66,6 +67,8 @@
 
     <!-- Site Scripts -->
     <script src="{{ asset('assets/frontend/js/app.js') }}"></script>
+    @include('sweetalert::alert')
+
 </body>
 
 

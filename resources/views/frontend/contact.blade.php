@@ -36,26 +36,44 @@
         <!--=====================================-->
         <section class="section section-padding">
             <div class="container">
+                <div class="banner-content text-center">
+                    <h2 class="" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
+                        I can't wait to meet you!
+                        <br>
+                        <b style="color: red;">
+                            Let's Chat Now.
+                        </b>
+                    </h2>
+                    <p class="">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aliquid quod iure debitis
+                        sit, dolor enim cumque nesciunt. Sed autem optio nostrum officiis excepturi modi laudantium
+                        ullam nisi ad aliquam.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ab possimus
+                        pariatur sunt minima nam, dolor totam consequatur dolorem quis sequi corrupti? Repellendus
+                        deleniti laborum nesciunt aperiam ex? Qui, vel.
+                    </p>
+                </div>
                 <div class="row">
                     <div class="col-xl-5 col-lg-6">
                         <div class="contact-form-box shadow-box mb--30">
                             <h3 class="title">Get a free Keystroke quote now</h3>
-                            <form method="POST" class="axil-contact-form">
+                            <form method="POST" action="{{ route('send-quote') }}" class="axil-contact-form">
+                                    @csrf
                                 <div class="form-group">
                                     <label>Name</label>
-                                    <input type="text" class="form-control" name="contact-name">
+                                    <input type="text" class="form-control" name="name">
                                 </div>
                                 <div class="form-group">
                                     <label>Email</label>
-                                    <input type="email" class="form-control" name="contact-email">
+                                    <input type="email" class="form-control" name="email">
                                 </div>
                                 <div class="form-group">
-                                    <label>Company</label>
-                                    <input type="text" class="form-control" name="contact-company">
+                                    <label>Contact</label>
+                                    <input type="tel" class="form-control" name="contact">
                                 </div>
                                 <div class="form-group mb--40">
                                     <label>How can we help you?</label>
-                                    <textarea name="contact-message" id="contact-message" class="form-control textarea" cols="30" rows="4"></textarea>
+                                    <textarea name="message" id="message" class="form-control textarea" cols="30" rows="4"></textarea>
                                 </div>
                                 <div class="form-group">
                                     <button type="submit" class="axil-btn btn-fill-primary btn-fluid btn-primary"
@@ -79,9 +97,10 @@
                 </div>
             </div>
             <ul class="list-unstyled shape-group-12">
-                <li class="shape shape-1"><img src="{{ asset('assets/frontend/media/others/bubble-2.png') }}" alt="Bubble"></li>
-                <li class="shape shape-2"><img src="{{ asset('assets/frontend/media/others/bubble-1.png') }}" alt="Bubble"></li>
-                <li class="shape shape-3"><img src="{{ asset('assets/frontend/media/others/circle-3.png') }}" alt="Circle"></li>
+                <li class="shape shape-2"><img src="{{ asset('assets/frontend/media/others/bubble-1.png') }}"
+                        alt="Bubble"></li>
+                <li class="shape shape-3"><img src="{{ asset('assets/frontend/media/others/circle-3.png') }}"
+                        alt="Circle"></li>
             </ul>
         </section>
 
@@ -142,8 +161,10 @@
                 </div>
             </div>
             <ul class="shape-group-11 list-unstyled">
-                <li class="shape shape-1"><img src="{{ asset('assets/frontend/media/others/line-6.png') }} " alt="line"></li>
-                <li class="shape shape-2"><img src="{{ asset('assets/frontend/media/others/circle-3.png') }} " alt="line"></li>
+                <li class="shape shape-1"><img src="{{ asset('assets/frontend/media/others/line-6.png') }} "
+                        alt="line"></li>
+                <li class="shape shape-2"><img src="{{ asset('assets/frontend/media/others/circle-3.png') }} "
+                        alt="line"></li>
             </ul>
         </section>
 

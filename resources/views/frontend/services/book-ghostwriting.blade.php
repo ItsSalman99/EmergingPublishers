@@ -10,16 +10,17 @@
                 <div class="">
                     <div class="">
                         <div class="banner-content text-center">
-                            <h1 class="title" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
-                                Book Ghost Writing Services
-                            </h1>
+                            <h2 class="text-white" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
+                                Find a Ghostwriter for Your Next Book.
+                                <br>
+                                <span>
+                                    Hire a Ghostwriter Now!
+                                </span>
+                            </h2>
                             <p class="text-white">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi natus assumenda expedita
-                                vitae, vero eaque odio ipsam at cum iste cupiditate neque molestias a, officia doloremque
-                                deleniti delectus earum totam!
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, esse? Nesciunt quod delectus
-                                modi voluptate, unde at explicabo culpa vel et nostrum vero labore quasi natus ea molestiae
-                                quibusdam nulla.
+                                Do you want to commission a book from a ghostwriter? Give your narrative to one of our
+                                experienced ghostwriters. Let our ghostwriters stir our magical concoction of powerful words
+                                to produce a book that will serve as an inventive elixir for you.
                             </p>
                         </div>
                     </div>
@@ -35,11 +36,10 @@
                         <div class="service-container" style="border: 2px solid #eee;">
                             <h5 style="width: 100%!important;">Sub Genres</h5>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iste labore voluptate
-                                explicabo unde minus fugit. Eaque accusamus quasi placeat eveniet repudiandae similique
-                                molestias hic? Harum sunt commodi tempora obcaecati.
+                                We provide you with book ghostwriting services that include writing for the subgenres. You
+                                pick it, and we will write it for you.
                             </p>
-                            <button type="submit" class="btn btn-service" name="submit-btn">Get
+                            <button type="submit" class="btn btn-service" name="submit-btn" onclick="openPop()">
                                 Get Started
                             </button>
                         </div>
@@ -49,11 +49,11 @@
                         <div class="service-container" style="border: 2px solid #eee;">
                             <h5 style="width: 100%!important;">Unmatched Writing Style</h5>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iste labore voluptate
-                                explicabo unde minus fugit. Eaque accusamus quasi placeat eveniet repudiandae similique
-                                molestias hic? Harum sunt commodi tempora obcaecati.
+                                Our book ghostwriters are truly the experts when it comes to writing style. Our writing
+                                style is truly different from other companies, and we make sure to provide you with quality
+                                work.
                             </p>
-                            <button type="submit" class="btn btn-service" name="submit-btn">Get
+                            <button type="submit" class="btn btn-service" name="submit-btn" onclick="openPop()">
                                 Get Started
                             </button>
                         </div>
@@ -63,11 +63,10 @@
                         <div class="service-container" style="border: 2px solid #eee;">
                             <h5 style="width: 100%!important;">Immaculate Content</h5>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iste labore voluptate
-                                explicabo unde minus fugit. Eaque accusamus quasi placeat eveniet repudiandae similique
-                                molestias hic? Harum sunt commodi tempora obcaecati.
+                                Our writers are experienced, and they always deliver perfect content which is free of errors
+                                and grammatically correct with the perfect sentence structuring.
                             </p>
-                            <button type="submit" class="btn btn-service" name="submit-btn">Get
+                            <button type="submit" class="btn btn-service" name="submit-btn" onclick="openPop()">
                                 Get Started
                             </button>
                         </div>
@@ -77,11 +76,10 @@
                         <div class="service-container" style="border: 2px solid #eee;">
                             <h5 style="width: 100%!important;">Swift Turnaround</h5>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iste labore voluptate
-                                explicabo unde minus fugit. Eaque accusamus quasi placeat eveniet repudiandae similique
-                                molestias hic? Harum sunt commodi tempora obcaecati.
+                                Our company is famous for our swift turnarounds as we always satisfy our clients and ensure
+                                they are happy with our services.
                             </p>
-                            <button type="submit" class="btn btn-service" name="submit-btn">Get
+                            <button type="submit" class="btn btn-service" name="submit-btn" onclick="openPop()">
                                 Get Started
                             </button>
                         </div>
@@ -97,16 +95,15 @@
             <div class="container">
                 <div class="">
                     <div class="">
-                        <div class="section-heading" data-sal="slide-right" data-sal-duration="1000"
-                            data-sal-delay="300">
+                        <div class="section-heading" data-sal="slide-right" data-sal-duration="1000" data-sal-delay="300">
                             <h1 class="title h2">
-                                What to expect from Our Delivery
+                                What Can You Expect From Us
                             </h1>
                             <p>
-                                Our vision is to create a sanctuary for all indie authors—a place where they find everything
-                                they
-                                need to succeed in their journey as a writer. At mermaid publishers, we partner with writers
-                                worldwide and help them get to the limelight they deserve.
+                                Our staff of ghostwriters has a knack for writing, and because of their excellent
+                                ghostwriting abilities have frequently been highlighted by reputable media sites like The
+                                New York Times. By creating a book, our ghostwriters have successfully assisted our clients
+                                in becoming well-known authors.
                             </p>
                         </div>
                     </div>
@@ -124,10 +121,11 @@
                                     <div id="faq1" class="accordion-collapse collapse show"
                                         data-bs-parent="#accordion">
                                         <div class="accordion-body">
-                                            <p>Vivamus magna est, placerat et dignissim et, elementum quis lacus. Nulla
-                                                laoreet pharetra vehicula. Vestibulum euismod augue ac velit consectetur, ac
-                                                tincidunt ante hendrerit. Sed lacinia elementum felis, ut tempus ipsum
-                                                blandit non.</p>
+                                            <p>
+                                                Our primary specialties are expert ghostwriting services. We have developed
+                                                the ability to manage even completed tasks quickly after working on more
+                                                than 600 writing jobs.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -140,10 +138,10 @@
                                     </h6>
                                     <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#accordion">
                                         <div class="accordion-body">
-                                            <p>Vivamus magna est, placerat et dignissim et, elementum quis lacus. Nulla
-                                                laoreet pharetra vehicula. Vestibulum euismod augue ac velit consectetur, ac
-                                                tincidunt ante hendrerit. Sed lacinia elementum felis, ut tempus ipsum
-                                                blandit non.</p>
+                                            <p>
+                                                We take full responsibility for the content we create, secure the sources
+                                                for every article we publish, and cite them in the references.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -157,10 +155,10 @@
                                     </h6>
                                     <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordion">
                                         <div class="accordion-body">
-                                            <p>Vivamus magna est, placerat et dignissim et, elementum quis lacus. Nulla
-                                                laoreet pharetra vehicula. Vestibulum euismod augue ac velit consectetur, ac
-                                                tincidunt ante hendrerit. Sed lacinia elementum felis, ut tempus ipsum
-                                                blandit non.</p>
+                                            <p>
+                                                We can give you high-quality illustrations for picture books for kids or
+                                                novels that call for a graphic or visuals.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -174,10 +172,11 @@
                                     </h6>
                                     <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#accordion">
                                         <div class="accordion-body">
-                                            <p>Vivamus magna est, placerat et dignissim et, elementum quis lacus. Nulla
-                                                laoreet pharetra vehicula. Vestibulum euismod augue ac velit consectetur, ac
-                                                tincidunt ante hendrerit. Sed lacinia elementum felis, ut tempus ipsum
-                                                blandit non.</p>
+                                            <p>
+                                                You can obtain ghostwriting services there without having them ghostwrite
+                                                you. By acquiring copyrights in your name, we provide you complete
+                                                authority.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -191,10 +190,10 @@
                                     </h6>
                                     <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#accordion">
                                         <div class="accordion-body">
-                                            <p>Vivamus magna est, placerat et dignissim et, elementum quis lacus. Nulla
-                                                laoreet pharetra vehicula. Vestibulum euismod augue ac velit consectetur, ac
-                                                tincidunt ante hendrerit. Sed lacinia elementum felis, ut tempus ipsum
-                                                blandit non.</p>
+                                            <p>
+                                                We have fiction lovers, history specialists, and many more who can provide
+                                                unique and thoroughly researched content to your publications.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -208,10 +207,10 @@
                                     </h6>
                                     <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#accordion">
                                         <div class="accordion-body">
-                                            <p>Vivamus magna est, placerat et dignissim et, elementum quis lacus. Nulla
-                                                laoreet pharetra vehicula. Vestibulum euismod augue ac velit consectetur, ac
-                                                tincidunt ante hendrerit. Sed lacinia elementum felis, ut tempus ipsum
-                                                blandit non.</p>
+                                            <p>
+                                                Your ebook's formatting becomes important for publication and printing,
+                                                something we can ideally handle.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -243,30 +242,34 @@
                         <div class="section-heading heading-left" data-sal="slide-right" data-sal-duration="1000"
                             data-sal-delay="300">
                             <h1 class="title h2">
-                                Get Professional GhostWriting Services
+                                The Most Proficient Ghostwriting Services in the Business
                             </h1>
                             <p>
-                                Our vision is to create a sanctuary for all indie authors—a place where they find everything
-                                they
-                                need to succeed in their journey as a writer. At mermaid publishers, we partner with writers
-                                worldwide and help them get to the limelight they deserve.
+                                Hire a ghostwriter for your assignment through our site to avoid the concern that drains
+                                your thoughts. All the storylines are brought to life by our ghostwriters' excellent book
+                                writing abilities. Our authors can handle any topic, whether it's a narrative of rags to
+                                riches, a historical account, or the tale of a mythical realm.
                             </p>
                             <div class="d-flex">
                                 <div>
-                                    <button type="submit" class="axil-btn " style="margin-right: 10px;" name="submit-btn">Get
+                                    <button type="submit" class="axil-btn " style="margin-right: 10px;"
+                                        name="submit-btn" onclick="openPop()">
                                         Get A Free Quote
                                     </button>
                                 </div>
                                 <div>
-                                    <button type="submit" class="axil-btn" name="submit-btn">Get
-                                        Contact Us
-                                    </button>
+                                    <a href="{{ route('contact') }}">
+                                        <button class="axil-btn" name="submit-btn">
+                                            Contact Us
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-6 text-center" style="">
-                        <img src="{{ asset('assets/frontend/media/hero-book4.jpg') }}" style=" border-radius: 50px;" alt="">
+                        <img src="{{ asset('assets/frontend/media/hero-book4.jpg') }}" style=" border-radius: 50px;"
+                            alt="">
                     </div>
                 </div>
             </div>
@@ -293,13 +296,13 @@
                         <div class="section-heading heading-left" data-sal="slide-right" data-sal-duration="1000"
                             data-sal-delay="300">
                             <h1 class="title h2">
-                                Ensuring Perfection in the Final Content
+                                Have a Story in Mind? Need help?
                             </h1>
                             <p>
-                                Our vision is to create a sanctuary for all indie authors—a place where they find everything
-                                they
-                                need to succeed in their journey as a writer. At mermaid publishers, we partner with writers
-                                worldwide and help them get to the limelight they deserve.
+                                If so, join us in finding your voice. Let us put your ideas into words and weave them into a
+                                compelling book that will hold readers' attention until the very last page is turned. We
+                                have skilled writers who use these narrative structures and tactics to make a biography
+                                sound heroic.
                             </p>
                             <div class="d-flex">
                                 <button class="btn btn-primary" style="margin-right: 50px;">
@@ -324,7 +327,7 @@
                 <div class="call-to-action">
                     <div class="section-heading heading-light">
                         <span class="subtitle">Let's Work Together</span>
-                        <h2 class="title">Need a successful project?</h2>
+                        <h2 class="title">Fraught to Write a Book on Your Own?</h2>
                         <a href="{{ route('contact') }}" class="axil-btn btn-large btn-fill-white">Estimate Project</a>
                     </div>
                     <div class="thumbnail">

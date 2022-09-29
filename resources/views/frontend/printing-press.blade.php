@@ -30,7 +30,7 @@
         <section class="section section-padding-2" style="z-index: 2; margin-bottom: 200px;">
             <div class="container">
                 <div class="row justify-content-center service-gap">
-                    <div class="col-xl-3 col-md-6 sal-animate" data-sal="slide-up" data-sal-duration="800"
+                    <div class="col-xl-3 col-md-6 sal-animate" style="margin-bottom: 20px;" data-sal="slide-up" data-sal-duration="800"
                         data-sal-delay="300">
                         <div class="press-container" style="border: 2px solid #eee;">
                             <img src="{{ asset('assets/frontend/media/icon/publisher.png') }}" alt="">
@@ -38,7 +38,7 @@
                             <h4>REVIEW OUR QUALITY</h4>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-6 sal-animate" data-sal="slide-up" data-sal-duration="800"
+                    <div class="col-xl-3 col-md-6 sal-animate" style="margin-bottom: 20px;" data-sal="slide-up" data-sal-duration="800"
                         data-sal-delay="100">
                         <div class="press-container" style="border: 2px solid #eee;">
                             <img src="{{ asset('assets/frontend/media/icon/pdf.png') }}" alt="">
@@ -46,7 +46,7 @@
                             <h4>FREE PDF REVIEW</h4>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-6 sal-animate" data-sal="slide-up" data-sal-duration="800"
+                    <div class="col-xl-3 col-md-6 sal-animate" style="margin-bottom: 20px;" data-sal="slide-up" data-sal-duration="800"
                         data-sal-delay="100">
                         <div class="press-container" style="border: 2px solid #eee;">
                             <img src="{{ asset('assets/frontend/media/icon/book.png') }}" alt="">
@@ -315,12 +315,12 @@
                             <div class="d-flex">
                                 <div>
                                     <button type="submit" class="axil-btn " style="margin-right: 10px;"
-                                        name="submit-btn">Get
+                                        name="submit-btn" onclick="openPop()">
                                         Get A Free Quote
                                     </button>
                                 </div>
                                 <div>
-                                    <button type="submit" class="axil-btn" name="submit-btn">Get
+                                    <button type="submit" class="axil-btn" name="submit-btn" onclick="openPop()">Get
                                         Contact Us
                                     </button>
                                 </div>

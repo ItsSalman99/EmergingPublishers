@@ -26,4 +26,9 @@ class ServiceController extends Controller
         return view('frontend.services.book-ghostwriting');
     }
 
+    public function services()
+    {
+        return view('frontend.services.index');
+    }
+
 }

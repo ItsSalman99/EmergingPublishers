@@ -26,4 +26,14 @@ class HomeController extends Controller
         return view('frontend.printing-press');
     }
 
+    public function termsconditions()
+    {
+        return view('frontend.terms-conditions');
+    }
+
+    public function privacy()
+    {
+        return view('frontend.privacy');
+    }
+
 }

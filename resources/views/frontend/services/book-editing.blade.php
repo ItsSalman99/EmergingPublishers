@@ -12,6 +12,10 @@
                         <div class="banner-content text-center">
                             <h1 class="title" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
                                 Turn Good Writing Into A Great Book
+                                <br>
+                                <span>
+                                    Hire Us Now!
+                                </span>
                             </h1>
                             <p class="text-white">
                                 Book editors make sure your writing is compelling and fluent, as well as all of your Is and
@@ -39,7 +43,7 @@
                                 language editors are also subject-matter specialists, so they will ensure that any
                                 terminology or grammatical constructions used in your work are accurate.
                             </p>
-                            <button type="submit" class="btn btn-service" name="submit-btn">Get
+                            <button type="submit" class="btn btn-service" name="submit-btn" onclick="openPop()">
                                 Get Started
                             </button>
                         </div>
@@ -53,7 +57,7 @@
                                 considered our editor's advice and want us to perform one more check before submitting it to
                                 the publication, we advise using this service.
                             </p>
-                            <button type="submit" class="btn btn-service" name="submit-btn">Get
+                            <button type="submit" class="btn btn-service" name="submit-btn" onclick="openPop()">
                                 Get Started
                             </button>
                         </div>
@@ -67,7 +71,7 @@
                                 are closely examined during developmental editing. Before you get into the specifics of each
                                 line, a developmental editor ensures that these "big picture" components are solid.
                             </p>
-                            <button type="submit" class="btn btn-service" name="submit-btn">Get
+                            <button type="submit" class="btn btn-service" name="submit-btn" onclick="openPop()">
                                 Get Started
                             </button>
                         </div>
@@ -82,7 +86,7 @@
                                 submission mechanism since we understand your worry. To protect your interests, we are also
                                 happy to sign a confidentiality agreement with you.
                             </p>
-                            <button type="submit" class="btn btn-service" name="submit-btn">Get
+                            <button type="submit" class="btn btn-service" name="submit-btn" onclick="openPop()">
                                 Get Started
                             </button>
                         </div>
@@ -111,7 +115,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-xl-4" style="margin-left: 200px;">
+                    <div class="col-lg-6 col-xl-6">
                         <img src="{{ asset('assets/frontend/media/hero-book2.png') }}" alt="">
                     </div>
                 </div>
@@ -161,7 +165,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-xl-4" style="margin-left: 200px;">
+                    <div class="col-lg-5 col-xl-5">
                         <img src="{{ asset('assets/frontend/media/books.png') }}" alt="">
                     </div>
                 </div>
@@ -182,10 +186,10 @@
         <section class="section section-padding-2" style="margin-bottom: 200px;">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-xl-4">
+                    <div class="col-lg-6 col-xl-6">
                         <img src="{{ asset('assets/frontend/media/hero-book2.png') }}" alt="">
                     </div>
-                    <div class="col-lg-6 col-xl-6" style="margin-left: 200px;">
+                    <div class="col-lg-6 col-xl-6">
                         <div class="section-heading heading-left" data-sal="slide-right" data-sal-duration="1000"
                             data-sal-delay="300">
                             <h1 class="title h2">
@@ -197,10 +201,10 @@
                                 managing and resolving numerous intricate style and content-related problems.
                             </p>
                             <div class="d-flex">
-                                <button class="btn btn-primary" style="margin-right: 50px;">
+                                <button class="btn btn-primary" style="margin-right: 50px;" onclick="openPop()">
                                     Get Free Qoute
                                 </button>
-                                <button class="btn btn-primary">
+                                <button class="btn btn-primary" onclick="openPop()">
                                     Chat Support
                                 </button>
                             </div>

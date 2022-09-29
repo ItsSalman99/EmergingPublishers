@@ -10,16 +10,18 @@
                 <div class="">
                     <div class="">
                         <div class="banner-content text-center">
-                            <h1 class="title" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
-                                Book Marketing Services
-                            </h1>
+                            <h2 class="text-white" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
+                                Make Your Book Prominent By Utilizing Our Leading
+                                <span>
+                                    Book Marketing Services
+                                </span>
+                            </h2>
                             <p class="text-white">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi natus assumenda expedita
-                                vitae, vero eaque odio ipsam at cum iste cupiditate neque molestias a, officia doloremque
-                                deleniti delectus earum totam!
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, esse? Nesciunt quod delectus
-                                modi voluptate, unde at explicabo culpa vel et nostrum vero labore quasi natus ea molestiae
-                                quibusdam nulla.
+                                An online presence is crucial in the current era of digitization. The Emerging Publishers
+                                assist you in going big in the digital arena for yourself and your brand by utilizing the
+                                talents of top marketing gurus in the field. Effective and tried-and-true methods for
+                                guaranteeing outcomes are provided with the aid of the greatest book marketing strategy
+                                strategies.
                             </p>
                         </div>
                     </div>
@@ -29,17 +31,16 @@
 
         <section class="section section-padding-2" style="z-index: 2;">
             <div class="container">
-                <div class="row service-gap" >
+                <div class="row service-gap">
                     <div class="col-xl-3 col-md-6 sal-animate" data-sal="slide-up" data-sal-duration="800"
                         data-sal-delay="100">
                         <div class="service-container" style="border: 2px solid #eee;">
                             <h5 style="width: 100%!important;">Author Website</h5>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iste labore voluptate
-                                explicabo unde minus fugit. Eaque accusamus quasi placeat eveniet repudiandae similique
-                                molestias hic? Harum sunt commodi tempora obcaecati.
+                                To determine your launching methods, engage the best book marketing company available. We
+                                create your author website in a way that distinguishes you from the competition.
                             </p>
-                            <button type="submit" class="btn btn-service" name="submit-btn">Get
+                            <button type="submit" class="btn btn-service" name="submit-btn" onclick="openPop()">
                                 Get Started
                             </button>
                         </div>
@@ -49,11 +50,10 @@
                         <div class="service-container" style="border: 2px solid #eee;">
                             <h5 style="width: 100%!important;">Book Cover Design</h5>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iste labore voluptate
-                                explicabo unde minus fugit. Eaque accusamus quasi placeat eveniet repudiandae similique
-                                molestias hic? Harum sunt commodi tempora obcaecati.
+                                We create book cover designs for your book, which will make sure that your book is different
+                                from others and entice your readers before even thinking to read it.
                             </p>
-                            <button type="submit" class="btn btn-service" name="submit-btn">Get
+                            <button type="submit" class="btn btn-service" name="submit-btn" onclick="openPop()">
                                 Get Started
                             </button>
                         </div>
@@ -63,11 +63,11 @@
                         <div class="service-container" style="border: 2px solid #eee;">
                             <h5 style="width: 100%!important;">Custom Book Illustration</h5>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iste labore voluptate
-                                explicabo unde minus fugit. Eaque accusamus quasi placeat eveniet repudiandae similique
-                                molestias hic? Harum sunt commodi tempora obcaecati.
+                                We are delighted to tell you that our illustrators are pros at their work, and they ensure
+                                that your requirements are being met at all costs. So you don't have to be distressed about
+                                that.
                             </p>
-                            <button type="submit" class="btn btn-service" name="submit-btn">Get
+                            <button type="submit" class="btn btn-service" name="submit-btn" onclick="openPop()">
                                 Get Started
                             </button>
                         </div>
@@ -77,11 +77,10 @@
                         <div class="service-container" style="border: 2px solid #eee;">
                             <h5 style="width: 100%!important;">Book Trailer</h5>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iste labore voluptate
-                                explicabo unde minus fugit. Eaque accusamus quasi placeat eveniet repudiandae similique
-                                molestias hic? Harum sunt commodi tempora obcaecati.
+                                Trust us on this when we tell you that your book trailer will make your readers go crazy and
+                                leave a strong impact on their minds about your book.
                             </p>
-                            <button type="submit" class="btn btn-service" name="submit-btn">Get
+                            <button type="submit" class="btn btn-service" name="submit-btn" onclick="openPop()">
                                 Get Started
                             </button>
                         </div>
@@ -100,13 +99,12 @@
                         <div class="section-heading heading-left" data-sal="slide-right" data-sal-duration="1000"
                             data-sal-delay="300">
                             <h1 class="title h2">
-                                Be Confident in the Written Content
+                                Executing an Efficient Marketing Plan for Book
                             </h1>
                             <p>
-                                Our vision is to create a sanctuary for all indie authors—a place where they find everything
-                                they
-                                need to succeed in their journey as a writer. At mermaid publishers, we partner with writers
-                                worldwide and help them get to the limelight they deserve.
+                                Your book has already been released, but sales aren't what you expected. You can still reach
+                                your objectives with our viable marketing strategies! Advertising your book with these
+                                helpful book promotion suggestions is never too late.
                             </p>
                         </div>
                     </div>
@@ -138,13 +136,14 @@
                         <div class="section-heading heading-left" data-sal="slide-right" data-sal-duration="1000"
                             data-sal-delay="300">
                             <h1 class="title h2">
-                                Do you want to have your very own book?
+                                A Leading Book Marketing Company
                             </h1>
                             <p>
-                                Our vision is to create a sanctuary for all indie authors—a place where they find everything
-                                they
-                                need to succeed in their journey as a writer. At mermaid publishers, we partner with writers
-                                worldwide and help them get to the limelight they deserve.
+                                We have not only the best book promotion ideas but also the know-how, know-how, experience,
+                                and intellect to carry them out successfully.
+                                Let us contact the appropriate journalists, write press releases, and keep cordial
+                                relationships with the media to ensure your book is marketed on the appropriate channels and
+                                receives the acclaim it deserves.
                             </p>
                             <ul>
                                 <li>
@@ -187,19 +186,19 @@
                         <div class="section-heading heading-left" data-sal="slide-right" data-sal-duration="1000"
                             data-sal-delay="300">
                             <h1 class="title h2">
-                                Ensuring Perfection in the Final Content
+                                Sales-Centric Marketing for all your Published Books
                             </h1>
                             <p>
-                                Our vision is to create a sanctuary for all indie authors—a place where they find everything
-                                they
-                                need to succeed in their journey as a writer. At mermaid publishers, we partner with writers
-                                worldwide and help them get to the limelight they deserve.
+                                Do you find it difficult to rate yourself on the search engine? Is your brand not receiving
+                                the attention it merits? Or do you lack the time necessary to devote to your digital
+                                marketing campaign? Your entire digital marketing puzzle can be solved by using Emerging
+                                Publisher's book marketing services.
                             </p>
                             <div class="d-flex">
-                                <button class="btn btn-primary" style="margin-right: 50px;">
+                                <button class="btn btn-primary" style="margin-right: 50px;" onclick="openPop()">
                                     Get Free Qoute
                                 </button>
-                                <button class="btn btn-primary">
+                                <button class="btn btn-primary" onclick="openPop()">
                                     Chat Support
                                 </button>
                             </div>
@@ -218,7 +217,9 @@
                 <div class="call-to-action">
                     <div class="section-heading heading-light">
                         <span class="subtitle">Let's Work Together</span>
-                        <h2 class="title">Need a successful project?</h2>
+                        <h2 class="title">
+                            Pondering Over How to Market Books?
+                        </h2>
                         <a href="{{ route('contact') }}" class="axil-btn btn-large btn-fill-white">Estimate Project</a>
                     </div>
                     <div class="thumbnail">

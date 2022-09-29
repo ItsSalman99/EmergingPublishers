@@ -46,7 +46,7 @@
                                     </div>
                                     <div class="form-group mb--40">
                                         <label>Your Phone:</label>
-                                        <input type="tel" class="form-control" name="company"
+                                        <input type="tel" class="form-control" name="contact"
                                             placeholder="+123456789" required>
                                     </div>
                                     <div class="form-group">
@@ -215,7 +215,7 @@
                     <div class="section-heading heading-light">
                         <span class="subtitle">Let's Work Together</span>
                         <h2 class="title">Would You Like To Publish Your Work?</h2>
-                        <a class="axil-btn btn-large btn-fill-white">Estimate Project</a>
+                        <a class="axil-btn btn-large btn-fill-white" href="{{ route('contact') }}">Estimate Project</a>
                     </div>
                     <div class="thumbnail">
                         <div class="larg-thumb" data-sal="zoom-in" data-sal-duration="600" data-sal-delay="100">

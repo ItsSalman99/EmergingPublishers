@@ -24,12 +24,11 @@
                             </p>
                             <div class="author-info">
                                 <div class="thumb">
-                                    <img src="{{ asset('assets/frontend/media/testimonial/testimonial-1.png') }}"
+                                    <img src="{{ asset('assets/frontend/media/team/team-1.png') }}"
                                         alt="Google Review">
                                 </div>
                                 <div class="content">
-                                    <span class="name">Darrell Steward</span>
-                                    <span class="designation">Executive Chairman</span>
+                                    <span class="name">Ian Yeoman</span>
                                 </div>
                             </div>
                         </div>
@@ -43,12 +42,11 @@
                                 that phone call. ”</p>
                             <div class="author-info">
                                 <div class="thumb">
-                                    <img src="{{ asset('assets/frontend/media/testimonial/testimonial-1.png') }}"
+                                    <img src="{{ asset('assets/frontend/media/team/team-2.png') }}"
                                         alt="Google Review">
                                 </div>
                                 <div class="content">
-                                    <span class="name">Darrell Steward</span>
-                                    <span class="designation">Executive Chairman</span>
+                                    <span class="name">Helen Kelly</span>
                                 </div>
                             </div>
                         </div>
@@ -62,12 +60,11 @@
                                 talented, and moral writers, editors, and marketers. ”</p>
                             <div class="author-info">
                                 <div class="thumb">
-                                    <img src="{{ asset('assets/frontend/media/testimonial/testimonial-1.png') }}"
+                                    <img src="{{ asset('assets/frontend/media/team/team-3.png') }}"
                                         alt="Google Review">
                                 </div>
                                 <div class="content">
-                                    <span class="name">Darrell Steward</span>
-                                    <span class="designation">Executive Chairman</span>
+                                    <span class="name">Rita Sommers</span>
                                 </div>
                             </div>
                         </div>
@@ -83,12 +80,11 @@
                             </p>
                             <div class="author-info">
                                 <div class="thumb">
-                                    <img src="{{ asset('assets/frontend/media/testimonial/testimonial-1.png') }}"
+                                    <img src="{{ asset('assets/frontend/media/team/team-4.png') }}"
                                         alt="Google Review">
                                 </div>
                                 <div class="content">
-                                    <span class="name">Darrell Steward</span>
-                                    <span class="designation">Executive Chairman</span>
+                                    <span class="name">Nancy Hoagland</span>
                                 </div>
                             </div>
                         </div>
@@ -103,12 +99,11 @@
                             </p>
                             <div class="author-info">
                                 <div class="thumb">
-                                    <img src="{{ asset('assets/frontend/media/testimonial/testimonial-1.png') }}"
+                                    <img src="{{ asset('assets/frontend/media/team/team-5.png') }}"
                                         alt="Google Review">
                                 </div>
                                 <div class="content">
-                                    <span class="name">Darrell Steward</span>
-                                    <span class="designation">Executive Chairman</span>
+                                    <span class="name">Larry Klein</span>
                                 </div>
                             </div>
                         </div>
@@ -124,12 +119,11 @@
                             </p>
                             <div class="author-info">
                                 <div class="thumb">
-                                    <img src="{{ asset('assets/frontend/media/testimonial/testimonial-1.png') }}"
+                                    <img src="{{ asset('assets/frontend/media/team/team-6.png') }}"
                                         alt="Google Review">
                                 </div>
                                 <div class="content">
-                                    <span class="name">Darrell Steward</span>
-                                    <span class="designation">Executive Chairman</span>
+                                    <span class="name">Louise Cameron</span>
                                 </div>
                             </div>
                         </div>

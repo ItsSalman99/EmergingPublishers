@@ -1,3 +1,12 @@
+$('#pop').hide();
+
+setTimeout(function () {
+    $("#pop").show()
+}, 4000);
+
+if (window.location.href == "http://127.0.0.1:8000/contact") {
+    $('#pop').hide();
+}
 
 function openPop() {
     $('#pop').show();
@@ -515,8 +524,8 @@ function showPop() {
     $('.client-logo').owlCarousel({
         loop: true,
         autoplay: true,
-        smartSpeed: 1200,
-        autoplayTimeout: 3000,
+        smartSpeed: 600,
+        autoplayTimeout: 1500,
         responsive: {
             0: {
                 margin: 30,

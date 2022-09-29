@@ -37,11 +37,6 @@
                             <li>
                                 <a href="{{ route('about') }}">About</a>
                             </li>
-                            <li>
-                                <a href="{{ route('pricing') }}">
-                                    Pricing & Plans
-                                </a>
-                            </li>
                             <li class="menu-item-has-children">
                                 <a href="javascript:void(0);">Services</a>
                                 <ul class="axil-submenu">
@@ -49,6 +44,13 @@
                                     <li><a href="{{ route('book-editing') }}">Book Editing</a></li>
                                     <li><a href="{{ route('book-marketing') }}">Book Marketing</a></li>
                                     <li><a href="{{ route('book-ghostwriting') }}">Book GhostWriting</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="javascript:void(0);">Our Programs</a>
+                                <ul class="axil-submenu">
+                                    <li><a href="{{ route('pricing') }}">Pricing & Plans</a></li>
+                                    <li><a href="{{ route('services.index') }}" >Our Programs</a></li>
                                 </ul>
                             </li>
                             <li>
@@ -63,7 +65,7 @@
                 <div class="header-action">
                     <ul class="list-unstyled">
                         <li class="header-btn">
-                            <a href="{{ route('contact') }}" class="axil-btn btn-fill-white">Free Consutation</a>
+                            <a href="{{ route('contact') }}" class="axil-btn btn-fill-white" style="border: 2px solid gray;">Free Consutation</a>
                         </li>
                         <li class="mobile-menu-btn sidemenu-btn d-lg-none d-block">
                             <button class="btn-wrap btn-dark" data-bs-toggle="offcanvas"

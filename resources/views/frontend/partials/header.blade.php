@@ -39,11 +39,6 @@
                                     <li>
                                         <a href="{{ route('about') }}">About</a>
                                     </li>
-                                    <li>
-                                        <a href="{{ route('pricing') }}">
-                                            Pricing & Plans
-                                        </a>
-                                    </li>
                                     <li class="menu-item-has-children">
                                         <a href="javascript:void(0);">Services</a>
                                         <ul class="axil-submenu">
@@ -51,6 +46,13 @@
                                             <li><a href="{{ route('book-editing') }}">Book Editing</a></li>
                                             <li><a href="{{ route('book-marketing') }}">Book Marketing</a></li>
                                             <li><a href="{{ route('book-ghostwriting') }}">Book GhostWriting</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="javascript:void(0);">Our Programs</a>
+                                        <ul class="axil-submenu">
+                                            <li><a href="{{ route('pricing') }}">Pricing & Plans</a></li>
+                                            <li><a href="{{ route('services.index') }}" >Our Programs</a></li>
                                         </ul>
                                     </li>
                                     <li>
