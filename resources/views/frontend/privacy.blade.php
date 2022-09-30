@@ -41,68 +41,89 @@
                             <div class="section-title">
                                 <h5 class="title">This Privacy & Policy was last updated on {{ date('F j, Y') }}.</h5>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                                tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-                                nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
-                                illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
-                                blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-                            <h4>Nam liber tempor cum soluta</h4>
-                            <p>Sed nec ex vitae justo molestie maximus. Sed ut neque sit amet libero rhoncus tempor. Fusce
-                                tempor quam libero, varius congue magna tempus vitae. Donec a justo nec elit sagittis
-                                sagittis eu a ante. Vivamus rutrum elit odio. Donec gravida id ligula ut faucibus. Aenean
-                                convallis ligula orci, ut congue nunc sodales ut. In ultrices elit malesuada velit ornare,
-                                eget dictum velit hendrerit. Praesent bibendum blandit lectus, eu congue neque mollis in.
-                                Pellentesque metus diam, hendrerit in purus fringilla, accumsan bibendum sapien. Nunc non
-                                facilisis sem.
+                            <h4>
+                                PRIVACY POLICY
+                            </h4>
+                            <p>
+                                At Emerging Publishers, one of our principal needs is the protection of our guests. This
+                                Security Strategy report contains data gathered and recorded by Emerging Publishers and how
+                                we use it.
+                                <br>
+                                Assuming you have additional inquiries or require more data about our Protection Strategy,
+                                make sure to us.
+                                <br>
+                                This Protection Strategy applies just to our web-based exercises. It is legitimate for
+                                guests to our Site concerning the data they shared and gathered in Emerging Publishers. This
+                                arrangement isn't material to any data gathered disconnected or through channels other than
+                                this Site.
                             </p>
-                            <h4>Nam liber tempor cum soluta</h4>
-                            <p>In dapibus, nibh sit amet pulvinar convallis, massa nunc tincidunt nunc, a pretium risus
-                                nulla ut dui. Ut ut condimentum tellus, dapibus volutpat est. Integer ullamcorper iaculis
-                                blandit. Pellentesque id tempus urna. Quisque luctus cursus imperdiet. <a
-                                    href="mailto:info@emergingpublishers.com">info@emergingpublishers.com</a> </p>
-                            <h4>Nam liber tempor cum soluta</h4>
-                            <p>Putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et
-                                quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in
-                                futurum.</p>
-                            <h4>Nam liber tempor cum soluta</h4>
-                            <p class="mb--20">Sed nec ex vitae justo molestie maximus. Sed ut neque sit amet libero rhoncus
-                                tempor. Fusce tempor quam libero, varius congue magna tempus vitae. Donec a justo nec elit
-                                sagittis sagittis eu a ante. Vivamus rutrum elit odio. Donec gravida id ligula ut faucibus.
-                                Aenean convallis ligula orci, ut congue nunc sodales ut. In ultrices elit malesuada velit
-                                ornare, eget dictum velit hendrerit. Praesent bibendum blandit lectus, eu congue neque
-                                mollis in. Pellentesque metus diam, hendrerit in purus fringilla, accumsan bibendum sapien.
-                                Nunc non facilisis sem.</p>
+                            <h4>
+                                Consent
+                            </h4>
+                            <p>
+                                By applying to our Site, you thus agree to our Protection Strategy and consent to its terms.
+                            </p>
+                            <h4>Information We Collect</h4>
+                            <p>
+                                The discrete data you are approached to give, and the justifications for why you are
+                                approached to give it, will be clarified at the point we request that you give your data.
+                                If you reach us straightforwardly, we might get extra data about you, for example, your
+                                name, email address, telephone number, the items in the message or potential connections you
+                                might send us, and some other data you might decide to give.
+                                At the point when you register for a Record, we might request your contact data, including
+                                things such as example, name, organization name, address, email address, and phone number.
+                            </p>
+                            <h4>How we use your information</h4>
+                            <p>
+                                We apply the data we gather in different ways, including:
+                            </p>
                             <ul>
-                                <li>Nulla facilisi. Sed pulvinar nec purus eu sollicitudin. Quisque ut tempus quam, in
-                                    cursus eros.</li>
-                                <li>Fusce malesuada luctus velit eu tempor. Pellentesque habitant morbi tristique senectus
-                                    et netus et.</li>
-                                <li>Pellentesque ornare nulla est, non blandit sapien lacinia nec. Nulla ac velit id est
-                                    mattis faucibus.</li>
-                                <li>Aliquam lacus nisi, lobortis non diam eget, malesuada bibendum justo. Praesent fringilla
-                                    sagittis ex, ac molestie ipsum ullamcorper a.</li>
-                                <li>Vestibulum nulla tortor, aliquam at porta in, hendrerit sed nibh.</li>
+                                <li>
+                                    Contribute, work, and maintain our website
+                                </li>
+                                <li>
+                                    Enhance, personalize, and expand our website
+                                </li>
+                                <li>
+                                    Understand and look into how you use our Site.
+                                </li>
+                                <li>
+                                    Promote novel products, services, features, and utility
+                                </li>
+                                <li>
+                                    Speak with you, either straightforwardly or through one of our accomplices, including
+                                    for
+                                    client assistance, to furnish you with refreshes and other data connecting with the Site
+                                    and
+                                    for showcasing and limited-time purposes
+                                </li>
+                                <li>
+                                    Send you messages
+                                </li>
+                                <li>
+                                    Find and forestall misrepresentation
+                                </li>
                             </ul>
-                            <h4>Nam liber tempor cum soluta</h4>
-                            <p>Nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim
-                                assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum
-                                claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
-                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
-                            <h4>Mirum est notare quam</h4>
-                            <p>Littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis
-                                per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum
-                                clari, fiant sollemnes in futurum.</p>
-
-                            <h4>Mirum est notare quam</h4>
-                            <p>Littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis
-                                per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum
-                                clari, fiant sollemnes in futurum.</p>
-
-                            <h4>Mirum est notare quam</h4>
-                            <p>Littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis
-                                per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum
-                                clari, fiant sollemnes in futurum.</p>
+                            <h4>Log Files</h4>
+                            <p>
+                                Emerging Publishers observe a guideline method of utilizing log records. These documents log
+                                guests when they visit sites. All facilitating organizations do this and a piece of
+                                facilitating administrations' examination. The data gathered by log documents incorporate
+                                web convention (IP) addresses, program type, Web access Supplier (ISP), date and time stamp,
+                                alluding/leave pages, and potentially the number of snaps. These are not connected to any
+                                data that is recognizable. The reason for the data is for breaking down patterns, overseeing
+                                the webpage, following clients' development on the Site, and assembling segment data.
+                            </p>
+                            <h4>Third Party Privacy Policies</h4>
+                            <p>
+                                Emerging Publisher's Protection Strategy doesn't significantly affect different publicists
+                                or sites. Consequently, we encourage you to counsel the individual Security Strategies of
+                                these outsider promotion servers for more nitty gritty data. It might incorporate their
+                                practices and directions about how to quit specific choices.
+                                You can decide to disable cookies through your singular program choices. The board with
+                                explicit internet browsers may be found at the programs' individual sites to know more
+                                point-by-point data about cookies.
+                            </p>
                         </div>
                     </div>
                 </div>

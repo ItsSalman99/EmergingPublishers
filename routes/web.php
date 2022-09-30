@@ -10,6 +10,7 @@ Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::get('/our-pricing', [HomeController::class, 'pricing'])->name('pricing');
 Route::get('/terms-conditions', [HomeController::class, 'termsconditions'])->name('our-terms');
 Route::get('/our-privacy', [HomeController::class, 'privacy'])->name('privacy');
+Route::get('/our-portfolio', [HomeController::class, 'portfolio'])->name('portfolio');
 
 Route::get('/services', [ServiceController::class, 'services'])->name('services.index');
 Route::get('/book-publishing', [ServiceController::class, 'bookPublishing'])->name('book-publishing');

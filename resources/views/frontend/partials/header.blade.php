@@ -51,6 +51,7 @@
                                     <li class="menu-item-has-children">
                                         <a href="javascript:void(0);">Our Programs</a>
                                         <ul class="axil-submenu">
+                                            <li><a href="{{ route('portfolio') }}">Our Portfolio</a></li>
                                             <li><a href="{{ route('pricing') }}">Pricing & Plans</a></li>
                                             <li><a href="{{ route('services.index') }}" >Our Programs</a></li>
                                         </ul>

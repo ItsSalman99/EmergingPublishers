@@ -14,12 +14,10 @@
                                 Printing Press
                             </h1>
                             <p class="text-white">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi natus assumenda expedita
-                                vitae, vero eaque odio ipsam at cum iste cupiditate neque molestias a, officia doloremque
-                                deleniti delectus earum totam!
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, esse? Nesciunt quod delectus
-                                modi voluptate, unde at explicabo culpa vel et nostrum vero labore quasi natus ea molestiae
-                                quibusdam nulla.
+                                We print your contemplations a distinctive impression of your creative mind on paper. Let us
+                                represent your book and print it exhaustively with our clobber assortment of printers. At
+                                Emerging Publishers, you save money and benefit from excellent book printing
+                                administrations.
                             </p>
                         </div>
                     </div>
@@ -30,24 +28,24 @@
         <section class="section section-padding-2" style="z-index: 2; margin-bottom: 200px;">
             <div class="container">
                 <div class="row justify-content-center service-gap">
-                    <div class="col-xl-3 col-md-6 sal-animate" style="margin-bottom: 20px;" data-sal="slide-up" data-sal-duration="800"
-                        data-sal-delay="300">
+                    <div class="col-xl-3 col-md-6 sal-animate" style="margin-bottom: 20px;" data-sal="slide-up"
+                        data-sal-duration="800" data-sal-delay="300">
                         <div class="press-container" style="border: 2px solid #eee;">
                             <img src="{{ asset('assets/frontend/media/icon/publisher.png') }}" alt="">
                             <br><br>
                             <h4>REVIEW OUR QUALITY</h4>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-6 sal-animate" style="margin-bottom: 20px;" data-sal="slide-up" data-sal-duration="800"
-                        data-sal-delay="100">
+                    <div class="col-xl-3 col-md-6 sal-animate" style="margin-bottom: 20px;" data-sal="slide-up"
+                        data-sal-duration="800" data-sal-delay="100">
                         <div class="press-container" style="border: 2px solid #eee;">
                             <img src="{{ asset('assets/frontend/media/icon/pdf.png') }}" alt="">
                             <br><br>
                             <h4>FREE PDF REVIEW</h4>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-6 sal-animate" style="margin-bottom: 20px;" data-sal="slide-up" data-sal-duration="800"
-                        data-sal-delay="100">
+                    <div class="col-xl-3 col-md-6 sal-animate" style="margin-bottom: 20px;" data-sal="slide-up"
+                        data-sal-duration="800" data-sal-delay="100">
                         <div class="press-container" style="border: 2px solid #eee;">
                             <img src="{{ asset('assets/frontend/media/icon/book.png') }}" alt="">
                             <br><br>
@@ -61,12 +59,11 @@
                         WHAT IS INCLUDED IN OUR PRICING?
                     </h1>
                     <p class="">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi natus assumenda expedita
-                        vitae, vero eaque odio ipsam at cum iste cupiditate neque molestias a, officia doloremque
-                        deleniti delectus earum totam!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, esse? Nesciunt quod delectus
-                        modi voluptate, unde at explicabo culpa vel et nostrum vero labore quasi natus ea molestiae
-                        quibusdam nulla.
+                        Our evaluation incorporates printing your book with various covers on 10pt. We have covered Uneven
+                        Cover stock with shine overlay and some other administrations you determine with your statement. We
+                        additionally offer Free Book Spine Creation in the additional services.
+                        Kindly review our Free Document Survey, Free Cover, Inside Formats, and Video Instructional
+                        exercises.
                     </p>
                     <button class="btn" onclick="openPop()" style="background-color: red; color: #fff; padding: 10px;">
                         Get Instant Pricing
@@ -85,9 +82,10 @@
                         <div class="our-service-container" style="background-color: #fff; border: 2px solid #eee;">
                             <h4>Digital Printing</h4>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsum dignissimos
-                                repellat labore commodi. Voluptas modi dignissimos totam quasi fugit voluptatibus a delectus
-                                perferendis suscipit et, iure laborum sed dolorem!
+                                Emerging Publishers have practical experience in digital printing services offering many
+                                items and services for any size business or task. Printing services online have meaningfully
+                                impacted how printing is seen and opened new wildernesses and scope of conceivable outcomes
+                                to businesses and the overall population from varying backgrounds.
                             </p>
                             <div>
                                 <button class="btn" onclick="openPop()">
@@ -101,9 +99,10 @@
                         <div class="our-service-container" style="background-color: #fff; border: 2px solid #eee;">
                             <h4>Offset Printing</h4>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsum dignissimos
-                                repellat labore commodi. Voluptas modi dignissimos totam quasi fugit voluptatibus a delectus
-                                perferendis suscipit et, iure laborum sed dolorem!
+                                Offset printing is a typically involved printing strategy where the inked picture is moved
+                                (or "offset") from a plate to an elastic cover, then to the printing surface. When applied
+                                in blend with the lithographic cycle, which depends on the shock of oil and water, the
+                                offset method utilizes a level (planographic) picture transporter.
                             </p>
                             <div>
                                 <button class="btn" onclick="openPop()">
@@ -117,9 +116,11 @@
                         <div class="our-service-container" style="background-color: #fff; border: 2px solid #eee;">
                             <h4>Cloting Services</h4>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsum dignissimos
-                                repellat labore commodi. Voluptas modi dignissimos totam quasi fugit voluptatibus a delectus
-                                perferendis suscipit et, iure laborum sed dolorem!
+                                Emerging Publishers is the leading Organization in quality customized items. Our
+                                advancements empower clients and brands to make purchases they plan on our Site. Emerging
+                                Publisher's quickly growing item base covers a wide assortment of items, for example, PC
+                                skins, cell phone skins, gaming console skins, shirts, vehicle decals, custom mugs, wall
+                                skins, patterns, and substantially more.
                             </p>
                             <div>
                                 <button class="btn" onclick="openPop()">
@@ -133,9 +134,9 @@
                         <div class="our-service-container" style="background-color: #fff; border: 2px solid #eee;">
                             <h4>Design Services</h4>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsum dignissimos
-                                repellat labore commodi. Voluptas modi dignissimos totam quasi fugit voluptatibus a delectus
-                                perferendis suscipit et, iure laborum sed dolorem!
+                                There's no control over what you can get planned at Emerging Publishers. Whether you're
+                                searching for an awesome few staggering flyers, the capable worldwide local area of planners
+                                at Emerging Publishers can get it going.
                             </p>
                             <div>
                                 <button class="btn" onclick="openPop()">
@@ -307,10 +308,10 @@
                                 Why Choose Our Service?
                             </h1>
                             <p>
-                                Our vision is to create a sanctuary for all indie authors—a place where they find everything
-                                they
-                                need to succeed in their journey as a writer. At mermaid publishers, we partner with writers
-                                worldwide and help them get to the limelight they deserve.
+                                We do much something than composing. We work for your prosperity. As the leading publishing
+                                house, we owe our clients their usual quality and try to surpass their assumptions. Our
+                                methodologies center around dependable effect. Express farewell to the troubling publishing
+                                process with us.
                             </p>
                             <div class="d-flex">
                                 <div>
@@ -354,7 +355,7 @@
                 <div class="call-to-action">
                     <div class="section-heading heading-light">
                         <span class="subtitle">Let's Work Together</span>
-                        <h2 class="title">Need a successful project?</h2>
+                        <h2 class="title">Get In Touch With Us!</h2>
                         <a href="{{ route('contact') }}" class="axil-btn btn-large btn-fill-white">Estimate Project</a>
                     </div>
                     <div class="thumbnail">

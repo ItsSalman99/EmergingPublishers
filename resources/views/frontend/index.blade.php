@@ -28,26 +28,33 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-6" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
-
                         <div class="banner-form">
                             <div class="contact-form-box shadow-box">
-                                <h3 class="title">We Provide Quality To You!</h3>
+                                <h3>
+                                    We Provide Quality To You!
+                                </h3>
                                 <form method="POST" action="{{ route('send-quote') }}" class="axil-contact-form">
                                     @csrf
                                     <div class="form-group">
-                                        <label>Your Name:</label>
-                                        <input type="text" class="form-control" name="name"
-                                            placeholder="John Smith" required>
+                                        <div class="row">
+                                            <div class="col-lg-6 col-xl-6">
+                                                <label>Your Name:</label>
+                                                <input type="text" class="form-control" name="name"
+                                                    placeholder="John Smith" required>
+                                            </div>
+                                            <div class="col-lg-6 col-xl-6">
+                                                <div class="">
+                                                    <label>Your Phone:</label>
+                                                    <input type="tel" class="form-control" name="contact"
+                                                        placeholder="+123456789" required>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="form-group">
                                         <label>Your Email:</label>
                                         <input type="email" class="form-control" name="email"
                                             placeholder="example@mail.com" required>
-                                    </div>
-                                    <div class="form-group mb--40">
-                                        <label>Your Phone:</label>
-                                        <input type="tel" class="form-control" name="contact"
-                                            placeholder="+123456789" required>
                                     </div>
                                     <div class="form-group">
                                         <label>Your Message:</label>

@@ -152,7 +152,7 @@
                 </div>
                 <div class="process-work" data-sal="slide-right" data-sal-duration="1000" data-sal-delay="100">
                     <div class="thumbnail paralax-image">
-                        <img src="{{ asset('assets/frontend/media/others/process-1.png') }}" alt="Thumbnail">
+                        <img src="{{ asset('assets/frontend/media/others/process-1.png') }}" width="70%" alt="Thumbnail">
                     </div>
                     <div class="content">
                         <span class="subtitle">Step One</span>

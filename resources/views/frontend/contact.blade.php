@@ -38,19 +38,15 @@
             <div class="container">
                 <div class="banner-content text-center">
                     <h2 class="" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
-                        I can't wait to meet you!
+                        We Are Eagerly Waiting For You!
                         <br>
                         <b style="color: red;">
-                            Let's Chat Now.
+                            Hire Us Now!
                         </b>
                     </h2>
                     <p class="">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aliquid quod iure debitis
-                        sit, dolor enim cumque nesciunt. Sed autem optio nostrum officiis excepturi modi laudantium
-                        ullam nisi ad aliquam.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ab possimus
-                        pariatur sunt minima nam, dolor totam consequatur dolorem quis sequi corrupti? Repellendus
-                        deleniti laborum nesciunt aperiam ex? Qui, vel.
+                        If you want to get your work published in the easiest and the best way possible, you should not wait
+                        any longer and get in touch with us now. We will be waiting!
                     </p>
                 </div>
                 <div class="row">
@@ -58,22 +54,22 @@
                         <div class="contact-form-box shadow-box mb--30">
                             <h3 class="title">Get a free Keystroke quote now</h3>
                             <form method="POST" action="{{ route('send-quote') }}" class="axil-contact-form">
-                                    @csrf
+                                @csrf
                                 <div class="form-group">
                                     <label>Name</label>
-                                    <input type="text" class="form-control" name="name">
+                                    <input type="text" class="form-control" name="name" placeholder="Your Name?">
                                 </div>
                                 <div class="form-group">
                                     <label>Email</label>
-                                    <input type="email" class="form-control" name="email">
+                                    <input type="email" class="form-control" name="email" placeholder="Your Email?">
                                 </div>
                                 <div class="form-group">
                                     <label>Contact</label>
-                                    <input type="tel" class="form-control" name="contact">
+                                    <input type="tel" class="form-control" name="contact" placeholder="Your Contact?">
                                 </div>
                                 <div class="form-group mb--40">
                                     <label>How can we help you?</label>
-                                    <textarea name="message" id="message" class="form-control textarea" cols="30" rows="4"></textarea>
+                                    <textarea name="message" id="message" class="form-control textarea" cols="30" rows="4" placeholder="Your Message"></textarea>
                                 </div>
                                 <div class="form-group">
                                     <button type="submit" class="axil-btn btn-fill-primary btn-fluid btn-primary"

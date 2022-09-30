@@ -3017,7 +3017,6 @@ Pagination
 }
 
 .banner .banner-content .axil-btn {
-    padding: 28px 45px;
     box-shadow: 0 44px 84px -24px #5956e9;
 }
 
@@ -3364,6 +3363,12 @@ Pagination
     .top-header {
         display: none;
     }
+
+    .banner.banner-style-5 .banner-form{
+        width: 350px!important;
+        float: none!important;
+    }
+
 }
 
 @media only screen and (max-width: 575px) {
@@ -3711,15 +3716,17 @@ Pagination
 }
 
 .banner.banner-style-5 .banner-form {
-    display: -webkit-box;
+    /* display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: end;
     -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
-    justify-content: flex-end;
+    justify-content: flex-end; */
     margin-bottom: -140px;
+    float: right;
+    width: 600px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -3730,7 +3737,7 @@ Pagination
 }
 
 .banner.banner-style-5 .banner-form .contact-form-box {
-    max-width: 450px;
+    /* max-width: 450px; */
 }
 
 @media only screen and (max-width: 991px) {

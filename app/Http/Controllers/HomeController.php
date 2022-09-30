@@ -36,4 +36,10 @@ class HomeController extends Controller
         return view('frontend.privacy');
     }
 
+    public function portfolio()
+    {
+        return view('frontend.portfolio');
+    }
+
+
 }
